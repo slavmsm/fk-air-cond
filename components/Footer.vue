@@ -5,10 +5,12 @@
         <div class="col-md-3 col-sm-6">
           <div class="footer_box">
             <img src="/assets/images/footer_logo.png" alt="Footer Logo" />
-            <p>855 Road Broklyn Street, 600 New York, USA</p>
+            <p>855 Road Broklyn Street, DUBAI</p>
             <span class="support_email"
               ><i class="fa fa-envelope"></i>
-              <a href="mailto:layerdrops@gmail.com">needhelp@refix.com</a></span
+              <a href="mailto:layerdrops@gmail.com"
+                >needhelp@fkaircond.com</a
+              ></span
             >
             <span class="support_num"
               ><i class="fa fa-phone-square"></i>
