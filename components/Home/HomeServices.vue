@@ -10,9 +10,7 @@
           </div>
           <!--end .hero-section-title-->
         </div>
-        <!--end .col-md-12-->
       </div>
-      <!--end .row-->
       <div class="row">
         <div class="service_slider owl-carousel">
           <div class="slider_service_box">
@@ -29,9 +27,7 @@
                 >Read More</nuxt-link
               >
             </div>
-            <!--end .slider_service_details-->
           </div>
-          <!--end .slider_service_box-->
           <div class="slider_service_box">
             <div class="slider_service_img bg_2">
               <i class="icon-refix-side-by-side"></i>

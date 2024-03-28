@@ -1929,25 +1929,20 @@ span#videostore {
 }
 .slider_service_img {
   position: relative;
-  background: url("../images/service_1.jpg") center center no-repeat;
+  background: url("../images/home/maintenance-services.png") center center
+    no-repeat;
   background-size: cover;
   width: 100%;
   height: 230px;
 }
 .slider_service_img.bg_2 {
-  background-image: url("../images/service_2.jpg");
+  background-image: url("../images/home/installation-services.png");
 }
 .slider_service_img.bg_3 {
-  background-image: url("../images/service_3.jpg");
+  background-image: url("../images/home/repair-services.png");
 }
 .slider_service_img.bg_4 {
-  background-image: url("../images/service_4.jpg");
-}
-.slider_service_img.bg_5 {
-  background-image: url("../images/service_5.jpg");
-}
-.slider_service_img.bg_6 {
-  background-image: url("../images/service_6.jpg");
+  background-image: url("../images/home/chemical-services.png");
 }
 .slider_service_img img {
   width: 100%;

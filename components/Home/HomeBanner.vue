@@ -8,10 +8,10 @@
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
                 <h1>
-                  "Expert solutions for air conditioning: maintenance,
-                  installation, repair, chemical services."
+                  Expert solutions for air conditioning: Maintenance,
+                  Installation, Repair, Chemical Services.
                 </h1>
-                <a href="#" class="btn-orange">Book Online</a>
+                <a href="/contact" class="btn-orange">Book Online</a>
               </div>
               <!--end .header_slide_text-->
             </div>
