@@ -1,7 +1,7 @@
 <template>
   <div>
     <HomeBanner />
-    <ServiceCarousel />
+    <HomeServices />
     <About />
     <Testimonial />
     <WhyChooseUs />
@@ -14,7 +14,7 @@
 import About from "~/components/About";
 import BlogRecent from "~/components/BlogRecent";
 import ContactHome from "~/components/ContactHome";
-import ServiceCarousel from "~/components/ServiceCarousel";
+import HomeServices from "~/components/Home/HomeServices";
 import Testimonial from "~/components/Testimonial";
 import WhyChooseUs from "~/components/WhyChooseUs";
 import WhyChooseUsTwo from "~/components/WhyChooseUsTwo";
@@ -22,7 +22,7 @@ import HomeBanner from "../components/Home/HomeBanner";
 export default {
   components: {
     HomeBanner,
-    ServiceCarousel,
+    HomeServices,
     About,
     Testimonial,
     WhyChooseUs,

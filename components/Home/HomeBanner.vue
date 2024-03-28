@@ -7,10 +7,10 @@
             <div class="col-md-7">
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
-                <h2>
+                <h1>
                   "Expert solutions for air conditioning: maintenance,
                   installation, repair, chemical services."
-                </h2>
+                </h1>
                 <a href="#" class="btn-orange">Book Online</a>
               </div>
               <!--end .header_slide_text-->
