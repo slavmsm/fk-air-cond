@@ -5,7 +5,6 @@
     <About />
     <Testimonial />
     <WhyChooseUs />
-    <WhyChooseUsTwo />
     <BlogRecent />
     <ContactHome />
   </div>
@@ -16,8 +15,7 @@ import BlogRecent from "~/components/BlogRecent";
 import ContactHome from "~/components/ContactHome";
 import HomeServices from "~/components/Home/HomeServices";
 import Testimonial from "~/components/Testimonial";
-import WhyChooseUs from "~/components/WhyChooseUs";
-import WhyChooseUsTwo from "~/components/WhyChooseUsTwo";
+import WhyChooseUs from "~/components/Home/WhyChooseUs";
 import HomeBanner from "../components/Home/HomeBanner";
 export default {
   components: {
@@ -26,7 +24,7 @@ export default {
     About,
     Testimonial,
     WhyChooseUs,
-    WhyChooseUsTwo,
+    WhyChooseUs,
     BlogRecent,
     ContactHome,
   },

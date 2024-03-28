@@ -1784,7 +1784,8 @@ span#videostore {
 
 /* why choose us */
 .why_choose_us_area {
-  background: url("../images/choose_us_bg.jpg") center center fixed no-repeat;
+  background: url("../images/home/services-bg.jpg") center center fixed
+    no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
