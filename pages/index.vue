@@ -3,18 +3,14 @@
     <HomeBanner />
     <HomeServices />
     <About />
-    <Testimonial />
     <WhyChooseUs />
-    <BlogRecent />
     <ContactHome />
   </div>
 </template>
 <script>
 import About from "~/components/About";
-import BlogRecent from "~/components/BlogRecent";
 import ContactHome from "~/components/ContactHome";
 import HomeServices from "~/components/Home/HomeServices";
-import Testimonial from "~/components/Testimonial";
 import WhyChooseUs from "~/components/Home/WhyChooseUs";
 import HomeBanner from "../components/Home/HomeBanner";
 export default {
@@ -22,10 +18,7 @@ export default {
     HomeBanner,
     HomeServices,
     About,
-    Testimonial,
     WhyChooseUs,
-    WhyChooseUs,
-    BlogRecent,
     ContactHome,
   },
 };
