@@ -856,7 +856,7 @@ ul.breadcrumb li a:hover {
 }
 .about_area:before {
   content: "";
-  background: url(../images/cleaning_service.jpg) center center no-repeat;
+  background: url(../images/home/about-section.jpg) center center no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;

@@ -1,14 +1,14 @@
 <template>
   <div>
     <HomeBanner />
+    <HomeAbout />
     <HomeServices />
-    <About />
     <WhyChooseUs />
     <ContactHome />
   </div>
 </template>
 <script>
-import About from "~/components/About";
+import HomeAbout from "~/components/Home/HomeAbout";
 import ContactHome from "~/components/ContactHome";
 import HomeServices from "~/components/Home/HomeServices";
 import WhyChooseUs from "~/components/Home/WhyChooseUs";
@@ -17,7 +17,7 @@ export default {
   components: {
     HomeBanner,
     HomeServices,
-    About,
+    HomeAbout,
     WhyChooseUs,
     ContactHome,
   },
