@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Slider />
+    <HomeBanner />
     <ServiceCarousel />
     <About />
     <Testimonial />
@@ -11,26 +11,24 @@
   </div>
 </template>
 <script>
-  import Slider from "~/components/Slider";
-  import ServiceCarousel from "~/components/ServiceCarousel";
-  import About from "~/components/About";
-  import Testimonial from "~/components/Testimonial";
-  import WhyChooseUs from "~/components/WhyChooseUs";
-  import WhyChooseUsTwo from "~/components/WhyChooseUsTwo";
-  import BlogRecent from "~/components/BlogRecent";
-  import ContactHome from "~/components/ContactHome";
-  export default {
-    components: {
-      Slider,
-      ServiceCarousel,
-      About,
-      Testimonial,
-      WhyChooseUs,
-      WhyChooseUsTwo,
-      BlogRecent,
-      ContactHome,
-
-    },
-
-  }
+import About from "~/components/About";
+import BlogRecent from "~/components/BlogRecent";
+import ContactHome from "~/components/ContactHome";
+import ServiceCarousel from "~/components/ServiceCarousel";
+import Testimonial from "~/components/Testimonial";
+import WhyChooseUs from "~/components/WhyChooseUs";
+import WhyChooseUsTwo from "~/components/WhyChooseUsTwo";
+import HomeBanner from "../components/Home/HomeBanner";
+export default {
+  components: {
+    HomeBanner,
+    ServiceCarousel,
+    About,
+    Testimonial,
+    WhyChooseUs,
+    WhyChooseUsTwo,
+    BlogRecent,
+    ContactHome,
+  },
+};
 </script>
