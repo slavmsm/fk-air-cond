@@ -372,7 +372,7 @@ body {
 
 /* Header Slider */
 .header_slider_bg {
-  background: url(../images/header-slider-1.jpg) center right no-repeat;
+  background: url(../images/home/banner.jpg) center right no-repeat;
   background-size: cover;
   padding: 172px 0 196px 0;
   position: relative;
@@ -406,7 +406,9 @@ body {
   color: #0eb3d6;
   font-weight: 400;
   font-size: 22px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); /* Adjust values as needed */
 }
+
 .header_slide_text h1 {
   font-size: 60px;
   font-weight: 400;

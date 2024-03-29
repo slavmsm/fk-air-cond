@@ -15,7 +15,7 @@
         <div class="service_slider owl-carousel">
           <div class="slider_service_box">
             <div class="slider_service_img">
-              <i class="icon-freezer"></i>
+              <i class="icon-medal"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Maintenance</h2></nuxt-link>
