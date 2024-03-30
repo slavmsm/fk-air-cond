@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageHeader title="Services" />
-    <Services />
+    <ServicesSection />
     <WhyChooseUs />
     <WhyChooseUsTwo />
     <ServiceThree />
@@ -9,21 +9,21 @@
 </template>
 <script>
 import PageHeader from "~/components/PageHeader";
-import Services from "~/components/Services";
+import ServicesSection from "~/components/Services/ServicesSection";
 import WhyChooseUs from "~/components/WhyChooseUs";
 import WhyChooseUsTwo from "~/components/WhyChooseUsTwo";
 import ServiceThree from "~/components/ServiceThree";
 export default {
   components: {
     PageHeader,
-    Services,
+    ServicesSection,
     WhyChooseUs,
     WhyChooseUsTwo,
     ServiceThree,
   },
   head() {
     return {
-      title: "FK Air Cons | Services",
+      title: "Services | FK Air Cons",
     };
   },
 };
