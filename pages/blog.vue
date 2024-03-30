@@ -5,17 +5,17 @@
   </div>
 </template>
 <script>
-  import PageHeader from "~/components/PageHeader";
-  import Blog from "~/components/Blog";
-  export default {
-    components: {
-      Blog,
-      PageHeader
-    },
-    head(){
-      return {
-        title: "Refix | Blog"
-      }
-    }
-  }
+import PageHeader from "~/components/PageHeader";
+import Blog from "~/components/Blog";
+export default {
+  components: {
+    Blog,
+    PageHeader,
+  },
+  head() {
+    return {
+      title: "FK Air Cons | Blog",
+    };
+  },
+};
 </script>
