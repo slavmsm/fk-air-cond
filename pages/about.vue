@@ -13,15 +13,15 @@
 import PageHeader from "~/components/PageHeader";
 import RepairSectionTwo from "~/components/RepairSectionTwo";
 import Counter from "~/components/Counter";
-import About from "~/components/common/About";
+import About from "~/components/Common/About";
 import Testimonial from "~/components/Testimonial";
 import CallToAction from "~/components/CallToAction";
 export default {
   components: {
     PageHeader,
+    About,
     RepairSectionTwo,
     Counter,
-    About,
     Testimonial,
     CallToAction,
   },

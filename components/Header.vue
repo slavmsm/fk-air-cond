@@ -12,7 +12,7 @@
                 ></span>
               </button>
               <a class="logo" href="/">
-                <img src="/assets/images/logo.png" alt="logo" />
+                <img src="assets/logo/fk-aircon-landshape.svg" alt="logo" />
               </a>
             </div>
             <div class="navbar_flex responsive_menu">

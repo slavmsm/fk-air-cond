@@ -7,13 +7,13 @@
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
               <h4>AirCon Services</h4>
-              <h1>Comprehensive Air Conditioning Services in Dubai</h1>
+              <h1>Comprehensive Air Conditioning Services in Malaysia</h1>
             </div>
             <!--end .hero-section-title-->
             <p>
-              Located in Dubai, FK Air Con Services specializes in comprehensive
-              air conditioning solutions. Our services include chemical
-              cleaning, overhaul clean, and repair for all brands. We
+              Located in Malaysia, FK Air Con Services specializes in
+              comprehensive air conditioning solutions. Our services include
+              chemical cleaning, overhaul clean, and repair for all brands. We
               meticulously clean and check air filters, front panels, and
               covers. Additionally, we offer installation of new units and
               dismantle services for existing air cons.

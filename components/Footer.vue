@@ -6,7 +6,7 @@
           <div class="footer_box">
             <img src="/assets/images/footer_logo.png" alt="Footer Logo" />
             <p>
-              FK Air Con Services, based in Dubai, offers maintenance,
+              FK Air Con Services, based in Malaysia, offers maintenance,
               installation, repair, and chemical services for all your air
               conditioning needs. Trusted expertise.
             </p>
@@ -45,7 +45,7 @@
             <span
               ><i class="fa fa-map-pin"></i>
               <a href="mailto:layerdrops@gmail.com"
-                >Shop 001, Street 001, Dubai.</a
+                >Shop 001, Street 001, Malaysia.</a
               >
             </span>
             <span class="support_email"
