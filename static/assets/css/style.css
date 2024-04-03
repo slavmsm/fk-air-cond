@@ -35,18 +35,8 @@ h6 {
   margin: 0;
   padding: 0;
   color: #0f1214;
+  font-family: "Roboto", sans-serif;
 }
-
-h1 {
-  font-family: "handycheera";
-  font-size: 30px;
-}
-h2 {
-  font-family: "handycheera";
-  font-size: 26px;
-  font-weight: 700;
-}
-p,
 ul {
   margin: 0;
   padding: 0;
@@ -389,10 +379,9 @@ body {
   overflow: inherit;
 }
 .header_slide_text p {
-  font-family: "handycheera";
   color: #225685;
   font-weight: 400;
-  font-size: 55px;
+  font-size: 25px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); /* Adjust values as needed */
 }
@@ -530,7 +519,7 @@ ul.breadcrumb li a:hover {
   margin-top: 10px;
 }
 .main_menu_area .logo img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 .main_menu_area .logo {
@@ -1816,7 +1805,7 @@ span#videostore {
   transition: 0.3s;
 }
 .why_choose_us_details:hover {
-  background-color: #0f1214;
+  background-color: #a73434;
 }
 .why_choose_us_details i {
   font-size: 65px;
@@ -1828,7 +1817,7 @@ span#videostore {
   color: #225685;
 }
 .why_choose_us_details:hover i {
-  color: #a73434;
+  color: white;
 }
 .why_choose_us_details p {
   font-size: 18px;

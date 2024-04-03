@@ -23,7 +23,7 @@ export default {
   },
   head () {
     return {
-      title: 'Services | FK AirCondds'
+      title: 'Services | FK Airconds'
     }
   }
 }

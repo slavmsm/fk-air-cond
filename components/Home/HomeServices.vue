@@ -20,7 +20,7 @@
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Maintenance</h2></nuxt-link>
               <p>
-                "We specialize in AirCond maintenance, ensuring satisfaction
+                "We specialize in Aircond maintenance, ensuring satisfaction
                 with repair services."
               </p>
               <nuxt-link class="btn-readmore" to="/services"
@@ -30,7 +30,7 @@
           </div>
           <div class="slider_service_box">
             <div class="slider_service_img bg_2">
-              <i class="icon-FK AirCondds-side-by-side"></i>
+              <i class="icon-car-parts"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Installation</h2></nuxt-link>
@@ -52,7 +52,7 @@
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Repair</h2></nuxt-link>
               <p>
-                "Quick, dependable AirCond repairs, ensuring comfort and peace
+                "Quick, dependable Aircond repairs, ensuring comfort and peace
                 of mind."
               </p>
               <nuxt-link class="btn-readmore" to="/services"
@@ -69,7 +69,7 @@
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Chemical Services</h2></nuxt-link>
               <p>
-                "Complete chemical services enhance AirCond efficiency and
+                "Complete chemical services enhance Aircond efficiency and
                 lifespan."
               </p>
               <nuxt-link class="btn-readmore" to="/services"

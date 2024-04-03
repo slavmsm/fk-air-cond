@@ -14,7 +14,7 @@ export default {
   },
   head () {
     return {
-      title: 'Contact Us | FK AirCondds'
+      title: 'Contact Us | FK Airconds'
     }
   }
 }

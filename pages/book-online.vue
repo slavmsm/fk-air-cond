@@ -17,7 +17,7 @@ export default {
   },
   head () {
     return {
-      title: 'FK AirCondds | Book Online'
+      title: 'FK Airconds | Book Online'
     }
   }
 }

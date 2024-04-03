@@ -27,7 +27,7 @@
         <!--end .col-md-4-->
         <div class="col-md-4 col-sm-6">
           <div class="pricing_box">
-            <i class="icon-FK AirCondds-side-by-side"></i>
+            <i class="icon-FK Airconds-side-by-side"></i>
             <h3>Refrigerator</h3>
             <h1><span class="currency">$</span> 29.00</h1>
             <p>We're specialized in repairing your refrigerators.</p>

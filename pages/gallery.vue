@@ -14,7 +14,7 @@ export default {
   },
   head () {
     return {
-      title: 'FK AirCondds | Gallery'
+      title: 'FK Airconds | Gallery'
     }
   }
 }

@@ -9,7 +9,7 @@
                 src="/assets/images/service_single.jpg"
                 alt="service image"
               />
-              <i class="icon-FK AirCondds-side-by-side"></i>
+              <i class="icon-FK Airconds-side-by-side"></i>
             </div>
             <!--end .service_single_img-->
             <h1>Refrigerator</h1>

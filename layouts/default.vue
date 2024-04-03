@@ -16,8 +16,7 @@ export default {
   },
   head () {
     return {
-      title:
-        'FK AirConddition Services - FK Fridge & Freezer Repair Company In Malaysia'
+      title: 'FK Aircond Services'
     }
   },
   mounted () {

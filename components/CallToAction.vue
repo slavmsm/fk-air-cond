@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1>
-            Your AirCondd stopped working, don't worry and book online today!
+            Your Aircondd stopped working, don't worry and book online today!
           </h1>
           <a class="btn-orange btn_mr" href="contact">Book Online</a>
           <a class="btn-orange btn-white" href="contact">Request a Quote</a>

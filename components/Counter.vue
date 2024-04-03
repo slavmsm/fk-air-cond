@@ -5,7 +5,7 @@
         <div class="col-md-3 col-sm-6">
           <i class="icon-settings"></i>
           <h1 class="counter">6820</h1>
-          <p>AirConds Repaired</p>
+          <p>Airconds Repaired</p>
         </div>
         <!--end .col-md-3-->
         <div class="col-md-3 col-sm-6">

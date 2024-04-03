@@ -36,7 +36,7 @@
           <!--end .slider_service_box-->
           <div class="slider_service_box">
             <div class="slider_service_img bg_2">
-              <i class="icon-FK AirCondds-side-by-side"></i>
+              <i class="icon-FK Airconds-side-by-side"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"
@@ -112,7 +112,7 @@
           <!--end .slider_service_box-->
           <div class="slider_service_box">
             <div class="slider_service_img">
-              <i class="icon-FK AirCondds-side-by-side"></i>
+              <i class="icon-FK Airconds-side-by-side"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"
@@ -169,7 +169,7 @@
           <!--end .slider_service_box-->
           <div class="slider_service_box">
             <div class="slider_service_img bg_4">
-              <i class="icon-FK AirCondds-browser"></i>
+              <i class="icon-FK Airconds-browser"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"

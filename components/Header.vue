@@ -7,12 +7,10 @@
             <!-- mobile display -->
             <div class="logo_flex">
               <button type="button" class="navbar-toggle">
-                <span class="icon-menu"
-                  >M <i class="fa fa-angle-down"></i
-                ></span>
+                <span class="icon-menu"><i class="fa fa-angle-down"></i></span>
               </button>
               <a class="logo" href="/">
-                <img src="assets/logo/fk-AirCond-landshape.svg" alt="logo" />
+                <img src="assets/logo/fk-aircond-landshape.svg" alt="logo" />
               </a>
             </div>
             <div class="navbar_flex responsive_menu">

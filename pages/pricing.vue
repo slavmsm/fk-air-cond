@@ -20,7 +20,7 @@ export default {
   },
   head () {
     return {
-      title: 'FK AirCondds | FAQ'
+      title: 'FK Airconds | FAQ'
     }
   }
 }

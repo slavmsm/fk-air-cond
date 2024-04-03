@@ -7,9 +7,7 @@
             <div class="header_left_contact">
               <ul>
                 <li><i class="fa fa-phone"></i> 666 888 0000</li>
-                <li>
-                  <i class="fa fa-envelope"></i> needhelp@FK AirCondds.com
-                </li>
+                <li><i class="fa fa-envelope"></i> needhelp@FK Airconds.com</li>
                 <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
               </ul>
             </div>

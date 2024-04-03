@@ -36,7 +36,7 @@
           <div class="testimonial_slider owl-carousel text-center">
             <div class="testimonial_details">
               <p>
-                "Outstanding service! FK AirCondd Services did a fantastic job
+                "Outstanding service! FK Aircond Services did a fantastic job
                 repairing my AC unit. Their attention to detail and
                 professionalism exceeded my expectations. I highly recommend
                 their services."
@@ -52,8 +52,8 @@
             </div>
             <div class="testimonial_details">
               <p>
-                "I was impressed by the thorough chemical cleaning FK AirCondd
-                Services provided for my AirCondditioner. It's now running more
+                "I was impressed by the thorough chemical cleaning FK Aircond
+                Services provided for my Airconditioner. It's now running more
                 efficiently than ever before. Thank you for your excellent
                 work!"
               </p>
@@ -67,11 +67,11 @@
             <!--end  .testimonial_details-->
             <div class="testimonial_details">
               <p>
-                "FK AirCondd Services installed a new AirCondditioner in my
-                home, and I couldn't be happier with the results. The
-                installation was smooth, and their team was courteous and
-                knowledgeable throughout the process. I will definitely use
-                their services again."
+                "FK Aircond Services installed a new Airconditioner in my home,
+                and I couldn't be happier with the results. The installation was
+                smooth, and their team was courteous and knowledgeable
+                throughout the process. I will definitely use their services
+                again."
               </p>
               <span class="rating"
                 ><i class="fa fa-star"></i> <i class="fa fa-star"></i>
