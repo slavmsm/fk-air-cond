@@ -7,26 +7,26 @@
 </template>
 
 <script>
-import Header from "~/components/Header";
-import Footer from "~/components/Footer";
+import Header from '~/components/Header'
+import Footer from '~/components/Footer'
 export default {
   components: {
     Header,
-    Footer,
+    Footer
   },
-  head() {
+  head () {
     return {
       title:
-        "FK Aircondition Services - FK Fridge & Freezer Repair Company In Malaysia",
-    };
+        'FK AirConddition Services - FK Fridge & Freezer Repair Company In Malaysia'
+    }
   },
-  mounted() {
+  mounted () {
     this.$nextTick(() => {
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.finish(), 500);
-    });
-  },
-};
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
+  }
+}
 </script>
 
 <style></style>

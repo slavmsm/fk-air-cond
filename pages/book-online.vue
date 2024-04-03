@@ -6,19 +6,19 @@
   </div>
 </template>
 <script>
-import PageHeader from "~/components/PageHeader";
-import BookOnline from "~/components/BookOnline";
-import WhyChooseUs from "~/components/WhyChooseUs";
+import PageHeader from '~/components/PageHeader'
+import BookOnline from '~/components/BookOnline'
+import WhyChooseUs from '~/components/WhyChooseUs'
 export default {
   components: {
     PageHeader,
     BookOnline,
-    WhyChooseUs,
+    WhyChooseUs
   },
-  head() {
+  head () {
     return {
-      title: "FK AirConds | Book Online",
-    };
-  },
-};
+      title: 'FK AirCondds | Book Online'
+    }
+  }
+}
 </script>

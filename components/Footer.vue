@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="footer_box">
-            <img src="assets/logo/fk-aircon-logo.svg" alt="Footer Logo" />
+            <img src="assets/logo/fk-AirCond-logo.svg" alt="Footer Logo" />
             <p>
-              FK AirCond Services, based in Malaysia, offers maintenance,
+              FK AirCondd Services, based in Malaysia, offers maintenance,
               installation, repair, and chemical services for all your air
               conditioning needs. Trusted expertise.
             </p>
@@ -18,10 +18,10 @@
           <div class="footer_box service">
             <h3>Services</h3>
             <ul>
-              <li><a href="/services">Aircon Maintenance</a></li>
-              <li><a href="/services">Aircon Installation</a></li>
-              <li><a href="/services">Aircon Repair</a></li>
-              <li><a href="/services">Aircon Chemical Services</a></li>
+              <li><a href="/services">AirCond Maintenance</a></li>
+              <li><a href="/services">AirCond Installation</a></li>
+              <li><a href="/services">AirCond Repair</a></li>
+              <li><a href="/services">AirCond Chemical Services</a></li>
             </ul>
           </div>
           <!--end .footer_box-->
@@ -50,7 +50,7 @@
             </span>
             <span class="support_email"
               ><i class="fa fa-envelope"></i>
-              <a href="mailto:layerdrops@gmail.com">needhelp@fkaircond.com</a>
+              <a href="mailto:layerdrops@gmail.com">needhelp@fkAirCondd.com</a>
             </span>
             <span class="support_num"
               ><i class="fa fa-phone-square"></i>
@@ -86,7 +86,7 @@
                 </li>
               </ul>
               <p>
-                &copy; copyright {{ getCurrentYear() }} - FK Aircond Services.
+                &copy; copyright {{ getCurrentYear() }} - FK AirCondd Services.
               </p>
             </div>
             <!--end .copyright_left-->
@@ -96,12 +96,15 @@
             <div class="copyright_right">
               <ul class="menu">
                 <li>
-                  <a href="https://wahabsharif.me/" target="_blank"
+                  <a href="http://beacontechh.com/" target="_blank"
                     >Design and Developed with Passion by
                     <img
-                      src="/assets/images/wahab-sharif-logo-4-neon.svg"
+                      src="/assets/images/bt-icon.png"
                       alt="Developer Logo"
-                  /></a>
+                      width="30"
+                      height="30"
+                    />
+                  </a>
                 </li>
               </ul>
             </div>
@@ -119,13 +122,13 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: 'Footer',
   methods: {
-    getCurrentYear() {
-      return new Date().getFullYear();
-    },
-  },
-};
+    getCurrentYear () {
+      return new Date().getFullYear()
+    }
+  }
+}
 </script>
 
 <style scoped></style>

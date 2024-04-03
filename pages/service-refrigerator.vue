@@ -5,17 +5,17 @@
   </div>
 </template>
 <script>
-import PageHeader from "~/components/PageHeader";
-import ServiceDetails from "~/components/ServiceDetails";
+import PageHeader from '~/components/PageHeader'
+import ServiceDetails from '~/components/ServiceDetails'
 export default {
   components: {
     PageHeader,
-    ServiceDetails,
+    ServiceDetails
   },
-  head() {
+  head () {
     return {
-      title: "FK AirConds | Service Details",
-    };
-  },
-};
+      title: 'FK AirCondds | Service Details'
+    }
+  }
+}
 </script>

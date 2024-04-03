@@ -33,7 +33,7 @@
         <!--end .col-md-4-->
         <div class="col-md-4 col-sm-6">
           <div class="service_style_2_details">
-            <i class="icon-FK AirConds-side-by-side"></i>
+            <i class="icon-FK AirCondds-side-by-side"></i>
             <nuxt-link to="/service-refrigerator"
               ><h2>Refrigerator</h2></nuxt-link
             >
@@ -74,8 +74,8 @@
 
 <script>
 export default {
-  name: "ServiceThree",
-};
+  name: 'ServiceThree'
+}
 </script>
 
 <style scoped></style>

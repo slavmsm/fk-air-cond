@@ -20,8 +20,8 @@
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Maintenance</h2></nuxt-link>
               <p>
-                "We specialize in aircon maintenance, ensuring satisfaction with
-                repair services."
+                "We specialize in AirCond maintenance, ensuring satisfaction
+                with repair services."
               </p>
               <nuxt-link class="btn-readmore" to="/services"
                 >Read More</nuxt-link
@@ -30,7 +30,7 @@
           </div>
           <div class="slider_service_box">
             <div class="slider_service_img bg_2">
-              <i class="icon-FK AirConds-side-by-side"></i>
+              <i class="icon-FK AirCondds-side-by-side"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Installation</h2></nuxt-link>
@@ -52,8 +52,8 @@
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Repair</h2></nuxt-link>
               <p>
-                "Quick, dependable AirCon repairs, ensuring comfort and peace of
-                mind."
+                "Quick, dependable AirCond repairs, ensuring comfort and peace
+                of mind."
               </p>
               <nuxt-link class="btn-readmore" to="/services"
                 >Read More</nuxt-link
@@ -69,7 +69,7 @@
             <div class="slider_service_details">
               <nuxt-link to="/services"><h2>Chemical Services</h2></nuxt-link>
               <p>
-                "Complete chemical services enhance AirCon efficiency and
+                "Complete chemical services enhance AirCond efficiency and
                 lifespan."
               </p>
               <nuxt-link class="btn-readmore" to="/services"
@@ -89,9 +89,9 @@
 
 <script>
 export default {
-  name: "HomeServices",
-  mounted() {
-    $(".service_slider").owlCarousel({
+  name: 'HomeServices',
+  mounted () {
+    $('.service_slider').owlCarousel({
       autoHeight: true,
       autoplay: true,
       loop: true,
@@ -100,18 +100,18 @@ export default {
       margin: 30,
       responsive: {
         0: {
-          items: 1,
+          items: 1
         },
         600: {
-          items: 2,
+          items: 2
         },
         1000: {
-          items: 4,
-        },
-      },
-    });
-  },
-};
+          items: 4
+        }
+      }
+    })
+  }
+}
 </script>
 
 <style scoped></style>

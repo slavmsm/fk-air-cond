@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import PageHeader from "~/components/PageHeader";
-import RepairSectionTwo from "~/components/RepairSectionTwo";
-import Counter from "~/components/Counter";
-import About from "~/components/Common/About";
-import Testimonial from "~/components/Testimonial";
-import CallToAction from "~/components/CallToAction";
+import PageHeader from '~/components/PageHeader'
+import RepairSectionTwo from '~/components/RepairSectionTwo'
+import Counter from '~/components/Counter'
+import About from '~/components/Common/About'
+import Testimonial from '~/components/Testimonial'
+import CallToAction from '~/components/CallToAction'
 export default {
   components: {
     PageHeader,
@@ -23,12 +23,12 @@ export default {
     RepairSectionTwo,
     Counter,
     Testimonial,
-    CallToAction,
+    CallToAction
   },
-  head() {
+  head () {
     return {
-      title: "About Us | FK AirCond Services",
-    };
-  },
-};
+      title: 'About Us | FK AirCondd Services'
+    }
+  }
+}
 </script>

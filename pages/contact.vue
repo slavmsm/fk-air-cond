@@ -5,17 +5,17 @@
   </div>
 </template>
 <script>
-import PageHeader from "~/components/PageHeader";
-import Contact from "~/components/Contact";
+import PageHeader from '~/components/PageHeader'
+import Contact from '~/components/Contact'
 export default {
   components: {
     PageHeader,
-    Contact,
+    Contact
   },
-  head() {
+  head () {
     return {
-      title: "Contact Us | FK AirConds",
-    };
-  },
-};
+      title: 'Contact Us | FK AirCondds'
+    }
+  }
+}
 </script>

@@ -6,7 +6,7 @@
           <div class="about_with_contact_details">
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
-              <h4>ABOUT FK AirConds STORY</h4>
+              <h4>ABOUT FK AirCondds STORY</h4>
               <h1>Running a successful business <span>since 1986</span></h1>
             </div>
             <!--end .hero-section-title-->
@@ -59,14 +59,14 @@
 
 <script>
 export default {
-  name: "AboutTwo",
-  mounted() {
-    $("#videolink").magnificPopup({
-      type: "inline",
-      midClick: true,
-    });
-  },
-};
+  name: 'AboutTwo',
+  mounted () {
+    $('#videolink').magnificPopup({
+      type: 'inline',
+      midClick: true
+    })
+  }
+}
 </script>
 
 <style scoped></style>

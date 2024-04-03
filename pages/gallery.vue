@@ -5,17 +5,17 @@
   </div>
 </template>
 <script>
-import PageHeader from "~/components/PageHeader";
-import GalleryPage from "~/components/GalleryPage";
+import PageHeader from '~/components/PageHeader'
+import GalleryPage from '~/components/GalleryPage'
 export default {
   components: {
     GalleryPage,
-    PageHeader,
+    PageHeader
   },
-  head() {
+  head () {
     return {
-      title: "FK AirConds | Gallery",
-    };
-  },
-};
+      title: 'FK AirCondds | Gallery'
+    }
+  }
+}
 </script>

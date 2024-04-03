@@ -9,13 +9,13 @@
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"
-                ><h2>AirCon Maintenance</h2></nuxt-link
+                ><h2>AirCond Maintenance</h2></nuxt-link
               >
               <p>
-                We excel in Airconditioning maintenance, dedicated to providing
+                We excel in AirCondditioning maintenance, dedicated to providing
                 repair services that ensure utmost satisfaction. With our
                 specialized skills, we prioritize the efficient functioning of
-                your aircon systems, ensuring they operate at peak performance.
+                your AirCond systems, ensuring they operate at peak performance.
                 Trust us to deliver exceptional maintenance solutions tailored
                 to meet your needs and exceed your expectations.
               </p>
@@ -28,11 +28,11 @@
         <div class="col-md-6 col-sm-6">
           <div class="slider_service_box mb_60">
             <div class="slider_service_img bg_2">
-              <i class="icon-FK AirConds-side-by-side"></i>
+              <i class="icon-FK AirCondds-side-by-side"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"
-                ><h2>AirCon Installation</h2></nuxt-link
+                ><h2>AirCond Installation</h2></nuxt-link
               >
               <p>
                 Experience ultimate comfort and convenience with our expert air
@@ -55,12 +55,12 @@
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"
-                ><h2>AirCon Repair</h2></nuxt-link
+                ><h2>AirCond Repair</h2></nuxt-link
               >
               <p>
-                Rapid and reliable Airconditioning repairs, dedicated to
+                Rapid and reliable AirCondditioning repairs, dedicated to
                 ensuring both comfort and peace of mind. Trust our prompt
-                service to swiftly address any issues with your AirCon system,
+                service to swiftly address any issues with your AirCond system,
                 providing reassurance and restoring your environment to its
                 desired state. Count on us for dependable solutions that
                 prioritize your comfort and guarantee a worry-free experience.
@@ -82,11 +82,11 @@
               >
               <p>
                 Comprehensive chemical services optimize the efficiency and
-                longevity of your AirCon system. Our thorough approach ensures
+                longevity of your AirCond system. Our thorough approach ensures
                 that your system operates at its best, enhancing performance and
                 extending its lifespan. Trust us to deliver complete chemical
                 services that prioritize the health and functionality of your
-                AirCon, providing you with lasting benefits and peace of mind.
+                AirCond, providing you with lasting benefits and peace of mind.
               </p>
             </div>
             <!--end .slider_service_details-->
@@ -103,8 +103,8 @@
 
 <script>
 export default {
-  name: "ServicesSection",
-};
+  name: 'ServicesSection'
+}
 </script>
 
 <style scoped></style>

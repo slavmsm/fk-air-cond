@@ -7,7 +7,9 @@
             <div class="header_left_contact">
               <ul>
                 <li><i class="fa fa-phone"></i> 666 888 0000</li>
-                <li><i class="fa fa-envelope"></i> needhelp@FK AirConds.com</li>
+                <li>
+                  <i class="fa fa-envelope"></i> needhelp@FK AirCondds.com
+                </li>
                 <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
               </ul>
             </div>
@@ -143,42 +145,42 @@
 
 <script>
 export default {
-  name: "HeaderTwo",
-  mounted() {
-    const menu_fixed = document.querySelector(".main_menu_area");
-    const topOfNav = menu_fixed.offsetTop;
+  name: 'HeaderTwo',
+  mounted () {
+    const menu_fixed = document.querySelector('.main_menu_area')
+    const topOfNav = menu_fixed.offsetTop
 
-    function fixed_nav() {
+    function fixed_nav () {
       if (window.scrollY >= topOfNav || window.scrollY === topOfNav) {
-        document.body.style.paddingTop = menu_fixed.offsetHeight + "px";
-        document.body.classList.add("fixed-scroll-nav");
+        document.body.style.paddingTop = menu_fixed.offsetHeight + 'px'
+        document.body.classList.add('fixed-scroll-nav')
       } else {
-        document.body.style.paddingTop = 0;
-        document.body.classList.remove("fixed-scroll-nav");
+        document.body.style.paddingTop = 0
+        document.body.classList.remove('fixed-scroll-nav')
       }
     }
-    window.addEventListener("scroll", fixed_nav);
+    window.addEventListener('scroll', fixed_nav)
 
     $(document).on(
-      "click",
-      ".main_menu_area .navbar-default .navbar-nav > li > span.responsive_click_menu:not(:only-child)",
+      'click',
+      '.main_menu_area .navbar-default .navbar-nav > li > span.responsive_click_menu:not(:only-child)',
       function (e) {
-        $(this).siblings(".dropdown-menu").toggle();
-        $(".dropdown-menu").not($(this).siblings()).hide();
-        e.stopPropagation();
+        $(this).siblings('.dropdown-menu').toggle()
+        $('.dropdown-menu').not($(this).siblings()).hide()
+        e.stopPropagation()
       }
-    );
+    )
     $(document).on(
-      "click",
-      ".main_menu_area .header_nav .navbar-toggle",
+      'click',
+      '.main_menu_area .header_nav .navbar-toggle',
       function () {
-        $(".main_menu_area .responsive_menu").toggleClass(
-          "responsive_menu_show"
-        );
+        $('.main_menu_area .responsive_menu').toggleClass(
+          'responsive_menu_show'
+        )
       }
-    );
-  },
-};
+    )
+  }
+}
 </script>
 
 <style scoped></style>

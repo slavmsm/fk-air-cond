@@ -5,7 +5,7 @@
         <div class="col-md-3 col-sm-6">
           <i class="icon-settings"></i>
           <h1 class="counter">6820</h1>
-          <p>AirCons Repaired</p>
+          <p>AirConds Repaired</p>
         </div>
         <!--end .col-md-3-->
         <div class="col-md-3 col-sm-6">
@@ -35,16 +35,16 @@
 
 <script>
 export default {
-  name: "Counter",
-  mounted() {
-    if ($(".counter").length) {
-      $(".counter").counterUp({
+  name: 'Counter',
+  mounted () {
+    if ($('.counter').length) {
+      $('.counter').counterUp({
         delay: 10,
-        time: 4000,
-      });
+        time: 4000
+      })
     }
-  },
-};
+  }
+}
 </script>
 
 <style scoped></style>

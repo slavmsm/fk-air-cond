@@ -1,6 +1,6 @@
-# FK Aircondition Services
+# FK AirConddition Services
 
-> FK Aircondition Services - FK Fridge &amp; Freezer Repair Company In Dubai
+> FK AirConddition Services - FK Fridge &amp; Freezer Repair Company In Dubai
 
 ## Build Setup
 

@@ -11,9 +11,9 @@
             </div>
             <!--end .hero-section-title-->
             <p>
-              At FK AirConds, we are driven by customer satisfaction. One way we
-              deliver that is through expert refrigerator repair! We service all
-              types of refrigerators, including top freezer, bottom freezer,
+              At FK AirCondds, we are driven by customer satisfaction. One way
+              we deliver that is through expert refrigerator repair! We service
+              all types of refrigerators, including top freezer, bottom freezer,
               French door, ice maker, salad bars, compact, and more. We can also
               replace or repair any part on your regrigerator.
             </p>
@@ -57,14 +57,14 @@
 
 <script>
 export default {
-  name: "RepairSection",
-  mounted() {
-    $("#videolink2").magnificPopup({
-      type: "inline",
-      midClick: true,
-    });
-  },
-};
+  name: 'RepairSection',
+  mounted () {
+    $('#videolink2').magnificPopup({
+      type: 'inline',
+      midClick: true
+    })
+  }
+}
 </script>
 
 <style scoped></style>
