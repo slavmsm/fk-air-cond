@@ -24,6 +24,8 @@ export default {
       { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
       { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
       { rel: "stylesheet", href: "/assets/css/fontello.css" },
+      { rel: "stylesheet", href: "/assets/css/handycheera.css" },
+      { rel: "stylesheet", href: "/assets/css/monthelo.css" },
       { rel: "stylesheet", href: "/assets/css/owl-carousel.min.css" },
       { rel: "stylesheet", href: "/assets/css/magnific.min.css" },
       { rel: "stylesheet", href: "/assets/css/animate.css" },

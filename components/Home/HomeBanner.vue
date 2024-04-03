@@ -28,20 +28,20 @@
 
 <script>
 export default {
-  name: "HomeBanner",
-  mounted() {
-    $(".header_slider_area").owlCarousel({
+  name: 'HomeBanner',
+  mounted () {
+    $('.header_slider_area').owlCarousel({
       items: 1,
       autoHeight: true,
       autoplay: true,
       loop: true,
       nav: false,
       dots: true,
-      animateIn: "fadeIn",
-      animateOut: "fadeOut",
-    });
-  },
-};
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut'
+    })
+  }
+}
 </script>
 
 <style scoped></style>
