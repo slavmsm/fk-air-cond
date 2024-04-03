@@ -14,7 +14,7 @@ export default {
   },
   head() {
     return {
-      title: "FK Air Cons | Blog",
+      title: "FK AirConds | Blog",
     };
   },
 };

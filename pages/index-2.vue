@@ -42,7 +42,7 @@ export default {
   layout: "home2",
   head() {
     return {
-      title: "FK Air Cons | Home 2",
+      title: "FK AirConds | Home 2",
     };
   },
 };

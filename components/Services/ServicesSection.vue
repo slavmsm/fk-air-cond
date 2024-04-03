@@ -12,7 +12,7 @@
                 ><h2>AirCon Maintenance</h2></nuxt-link
               >
               <p>
-                We excel in air conditioning maintenance, dedicated to providing
+                We excel in Airconditioning maintenance, dedicated to providing
                 repair services that ensure utmost satisfaction. With our
                 specialized skills, we prioritize the efficient functioning of
                 your aircon systems, ensuring they operate at peak performance.
@@ -28,7 +28,7 @@
         <div class="col-md-6 col-sm-6">
           <div class="slider_service_box mb_60">
             <div class="slider_service_img bg_2">
-              <i class="icon-FK Air Cons-side-by-side"></i>
+              <i class="icon-FK AirConds-side-by-side"></i>
             </div>
             <div class="slider_service_details">
               <nuxt-link to="/service-refrigerator"
@@ -58,7 +58,7 @@
                 ><h2>AirCon Repair</h2></nuxt-link
               >
               <p>
-                Rapid and reliable air conditioning repairs, dedicated to
+                Rapid and reliable Airconditioning repairs, dedicated to
                 ensuring both comfort and peace of mind. Trust our prompt
                 service to swiftly address any issues with your AirCon system,
                 providing reassurance and restoring your environment to its

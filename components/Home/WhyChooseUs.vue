@@ -6,7 +6,7 @@
           <div class="hero-section-title">
             <i class="icon-snowflake"></i>
             <h4>WHY YOU SHOULD CHOOSE US</h4>
-            <h1>Reasons to choose FK Air Con Services.</h1>
+            <h1>Reasons to choose FK AirCond Services.</h1>
           </div>
           <!--end .hero-section-title-->
         </div>

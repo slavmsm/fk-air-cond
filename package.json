@@ -1,8 +1,8 @@
 {
   "name": "fk-air-cond-services",
   "version": "1.0.0",
-  "description": "FK Air Condition Services - Best AC repair services available in Malaysia.",
-  "author": "FK Air Condition Services",
+  "description": "FK Aircondition Services - Best AC repair services available in Malaysia.",
+  "author": "FK Aircondition Services",
   "private": true,
   "scripts": {
     "dev": "nuxt",

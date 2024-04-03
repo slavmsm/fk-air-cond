@@ -22,7 +22,7 @@
                 src="/assets/images/how-we-work-shape.png"
                 alt="shape"
               />
-              <i class="icon-FK Air Cons-support1"></i>
+              <i class="icon-FK AirConds-support1"></i>
               <span class="number">1</span>
             </div>
             <!--end .icon_box-->
@@ -39,7 +39,7 @@
                 src="/assets/images/how-we-work-shape.png"
                 alt="shape"
               />
-              <i class="icon-FK Air Cons-freez"></i>
+              <i class="icon-FK AirConds-freez"></i>
               <span class="number">2</span>
             </div>
             <!--end .icon_box-->

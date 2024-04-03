@@ -7,16 +7,16 @@
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
               <h4>AirCon Services</h4>
-              <h1>Comprehensive Air Conditioning Services in Malaysia</h1>
+              <h1>Comprehensive Airconditioning Services in Malaysia</h1>
             </div>
             <!--end .hero-section-title-->
             <p>
-              Located in Malaysia, FK Air Con Services specializes in
-              comprehensive air conditioning solutions. Our services include
+              Located in Malaysia, FK AirCond Services specializes in
+              comprehensive Airconditioning solutions. Our services include
               chemical cleaning, overhaul clean, and repair for all brands. We
               meticulously clean and check air filters, front panels, and
               covers. Additionally, we offer installation of new units and
-              dismantle services for existing air cons.
+              dismantle services for existing AirConds.
             </p>
             <ul>
               <li>
@@ -40,7 +40,7 @@
               </li>
               <li>
                 <i class="fa fa-check"></i>Professional dismantling services for
-                existing air conditioning units
+                existing Airconditioning units
               </li>
             </ul>
           </div>

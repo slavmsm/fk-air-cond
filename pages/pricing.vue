@@ -20,7 +20,7 @@ export default {
   },
   head() {
     return {
-      title: "FK Air Cons | FAQ",
+      title: "FK AirConds | FAQ",
     };
   },
 };

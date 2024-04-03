@@ -15,7 +15,11 @@ export default {
       },
     ],
     link: [
-      { rel: "icon", type: "image/png", href: "/assets/images/favicon.png" },
+      {
+        rel: "icon",
+        type: "image/png",
+        href: "assets/logo/fk-aircon-icon.png",
+      },
 
       { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
       { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },

@@ -11,7 +11,7 @@
             </div>
             <!--end .hero-section-title-->
             <p>
-              At FK Air Cons, we are driven by customer satisfaction. One way we
+              At FK AirConds, we are driven by customer satisfaction. One way we
               deliver that is through expert refrigerator repair! We service all
               types of refrigerators, including top freezer, bottom freezer,
               French door, ice maker, salad bars, compact, and more. We can also

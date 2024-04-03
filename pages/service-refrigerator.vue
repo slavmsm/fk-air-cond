@@ -14,7 +14,7 @@ export default {
   },
   head() {
     return {
-      title: "FK Air Cons | Service Details",
+      title: "FK AirConds | Service Details",
     };
   },
 };

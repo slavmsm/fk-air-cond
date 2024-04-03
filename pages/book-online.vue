@@ -17,7 +17,7 @@ export default {
   },
   head() {
     return {
-      title: "FK Air Cons | Book Online",
+      title: "FK AirConds | Book Online",
     };
   },
 };

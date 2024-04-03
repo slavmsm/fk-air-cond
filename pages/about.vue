@@ -27,7 +27,7 @@ export default {
   },
   head() {
     return {
-      title: "About Us | FK Air Con Services",
+      title: "About Us | FK AirCond Services",
     };
   },
 };

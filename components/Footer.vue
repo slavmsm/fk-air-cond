@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="footer_box">
-            <img src="/assets/images/footer_logo.png" alt="Footer Logo" />
+            <img src="assets/logo/fk-aircon-logo.svg" alt="Footer Logo" />
             <p>
-              FK Air Con Services, based in Malaysia, offers maintenance,
+              FK AirCond Services, based in Malaysia, offers maintenance,
               installation, repair, and chemical services for all your air
               conditioning needs. Trusted expertise.
             </p>
@@ -86,7 +86,7 @@
                 </li>
               </ul>
               <p>
-                &copy; copyright {{ getCurrentYear() }} - FK Air Cond Services.
+                &copy; copyright {{ getCurrentYear() }} - FK Aircond Services.
               </p>
             </div>
             <!--end .copyright_left-->

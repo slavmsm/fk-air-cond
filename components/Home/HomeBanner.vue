@@ -8,7 +8,7 @@
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
                 <h2>
-                  Expert solutions for air conditioning: Maintenance,
+                  Expert solutions for Airconditioning: Maintenance,
                   Installation, Repair, Chemical Services.
                 </h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
