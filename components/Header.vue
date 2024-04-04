@@ -7,7 +7,7 @@
             <!-- mobile display -->
             <div class="logo_flex">
               <button type="button" class="navbar-toggle">
-                <span class="icon-menu"><i class="fa fa-angle-down"></i></span>
+                <span class="icon-menu"><i class="fa fa-bars"></i></span>
               </button>
               <a class="logo" href="/">
                 <img src="assets/logo/fk-aircond-landshape.svg" alt="logo" />
@@ -62,42 +62,42 @@
 
 <script>
 export default {
-  name: 'Header',
-  mounted () {
-    const menu_fixed = document.querySelector('.main_menu_area')
-    const topOfNav = menu_fixed.offsetTop
+  name: "Header",
+  mounted() {
+    const menu_fixed = document.querySelector(".main_menu_area");
+    const topOfNav = menu_fixed.offsetTop;
 
-    function fixed_nav () {
+    function fixed_nav() {
       if (window.scrollY >= topOfNav || window.scrollY === topOfNav) {
-        document.body.style.paddingTop = menu_fixed.offsetHeight + 'px'
-        document.body.classList.add('fixed-scroll-nav')
+        document.body.style.paddingTop = menu_fixed.offsetHeight + "px";
+        document.body.classList.add("fixed-scroll-nav");
       } else {
-        document.body.style.paddingTop = 0
-        document.body.classList.remove('fixed-scroll-nav')
+        document.body.style.paddingTop = 0;
+        document.body.classList.remove("fixed-scroll-nav");
       }
     }
-    window.addEventListener('scroll', fixed_nav)
+    window.addEventListener("scroll", fixed_nav);
 
     $(document).on(
-      'click',
-      '.main_menu_area .navbar-default .navbar-nav > li > span.responsive_click_menu:not(:only-child)',
+      "click",
+      ".main_menu_area .navbar-default .navbar-nav > li > span.responsive_click_menu:not(:only-child)",
       function (e) {
-        $(this).siblings('.dropdown-menu').toggle()
-        $('.dropdown-menu').not($(this).siblings()).hide()
-        e.stopPropagation()
+        $(this).siblings(".dropdown-menu").toggle();
+        $(".dropdown-menu").not($(this).siblings()).hide();
+        e.stopPropagation();
       }
-    )
+    );
     $(document).on(
-      'click',
-      '.main_menu_area .header_nav .navbar-toggle',
+      "click",
+      ".main_menu_area .header_nav .navbar-toggle",
       function () {
-        $('.main_menu_area .responsive_menu').toggleClass(
-          'responsive_menu_show'
-        )
+        $(".main_menu_area .responsive_menu").toggleClass(
+          "responsive_menu_show"
+        );
       }
-    )
-  }
-}
+    );
+  },
+};
 </script>
 
 <style scoped></style>

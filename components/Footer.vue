@@ -1,10 +1,16 @@
 <template>
   <footer class="footer_section section_padding">
     <div class="container">
+      <div>
+        <img
+          src="assets/logo/fk-aircond-logo.svg"
+          alt="Footer Logo"
+          width="100"
+        />
+      </div>
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="footer_box">
-            <img src="assets/logo/fk-aircond-logo.svg" alt="Footer Logo" />
             <p>
               FK Aircond Services, based in Malaysia, offers maintenance,
               installation, repair, and chemical services for all your air
@@ -120,13 +126,13 @@
 
 <script>
 export default {
-  name: 'Footer',
+  name: "Footer",
   methods: {
-    getCurrentYear () {
-      return new Date().getFullYear()
-    }
-  }
-}
+    getCurrentYear() {
+      return new Date().getFullYear();
+    },
+  },
+};
 </script>
 
 <style scoped></style>
