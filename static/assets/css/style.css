@@ -2019,7 +2019,7 @@ span#videostore {
 .testimonial_area .owl-dots button {
   width: 10px;
   height: 10px;
-  background: #0f1214;
+  background: #225685;
   border-radius: 50%;
   margin: 0 2px;
   opacity: 0.2;
@@ -2440,7 +2440,7 @@ span#videostore {
 }
 .repair_area:before {
   content: "";
-  background: #0f1214;
+  background: #225685;
   position: absolute;
   left: 0;
   top: 0;
@@ -2774,7 +2774,7 @@ span#videostore {
   padding: 16px 32px;
 }
 .contact-details button:hover {
-  background: #0f1214;
+  background: #225685;
   color: #ffffff;
 }
 .contact-details input::-webkit-input-placeholder,
@@ -2893,7 +2893,7 @@ span#videostore {
 }
 .footer_box ul li a:hover,
 .footer_box span a:hover {
-  color: #225685;
+  color: #ffffff;
 }
 .footer_box.service {
   padding-left: 60px;
