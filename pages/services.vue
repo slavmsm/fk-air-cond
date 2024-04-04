@@ -4,27 +4,27 @@
     <ServicesSection />
     <WhyChooseUs />
     <WhyChooseUsTwo />
-    <ServiceThree />
+    <!-- <ServiceThree /> -->
   </div>
 </template>
 <script>
-import PageHeader from '~/components/PageHeader'
-import ServicesSection from '~/components/Services/ServicesSection'
-import WhyChooseUs from '~/components/WhyChooseUs'
-import WhyChooseUsTwo from '~/components/WhyChooseUsTwo'
-import ServiceThree from '~/components/ServiceThree'
+import PageHeader from "~/components/PageHeader";
+import ServicesSection from "~/components/Services/ServicesSection";
+import WhyChooseUs from "~/components/WhyChooseUs";
+import WhyChooseUsTwo from "~/components/WhyChooseUsTwo";
+// import ServiceThree from "~/components/ServiceThree";
 export default {
   components: {
     PageHeader,
     ServicesSection,
     WhyChooseUs,
     WhyChooseUsTwo,
-    ServiceThree
+    // ServiceThree,
   },
-  head () {
+  head() {
     return {
-      title: 'Services | FK Airconds'
-    }
-  }
-}
+      title: "Services | FK Airconds",
+    };
+  },
+};
 </script>

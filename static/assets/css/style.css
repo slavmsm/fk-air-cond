@@ -233,8 +233,8 @@ body {
   border: none;
 }
 .btn-orange:hover {
-  background: #ffffff;
-  color: #0f1214;
+  background: #225685;
+  color: #ffffff;
   text-decoration: none;
 }
 .input_mr {
@@ -710,7 +710,7 @@ ul.breadcrumb li a:hover {
   color: #225685;
 }
 .hv2_contact_us .btn-orange:hover {
-  background-color: #0f1214;
+  background-color: #225685;
   color: #ffffff;
 }
 .hv2_contact_us .btn-orange {
@@ -1278,7 +1278,7 @@ iframe {
 
 /* Call top action */
 .call_to_action_section {
-  background: #a73434;
+  background: #225685;
 }
 .call_to_action_section a.btn_mr {
   margin-right: 5px;
@@ -1287,16 +1287,16 @@ iframe {
   padding: 16px 40px;
 }
 .call_to_action_section a.btn-orange.btn_mr {
-  background: #225685;
+  background: #ae2a2d;
 }
 .call_to_action_section a.btn-white,
 .call_to_action_section a.btn-orange.btn_mr:hover {
-  background: #ffffff;
-  color: #0f1214;
+  background: #225685;
+  color: #ffffff;
 }
 .call_to_action_section a.btn-white:hover {
   color: #ffffff;
-  background: #0f1214;
+  background: #225685;
 }
 .call_to_action_section h1 {
   font-size: 30px;
@@ -1603,7 +1603,7 @@ iframe {
   padding: 16px 40px;
 }
 .comments-area a.btn-orange:hover {
-  background-color: #0f1214;
+  background-color: #225685;
   color: #ffffff;
 }
 .latest_post ul li > * {
@@ -2389,7 +2389,7 @@ span#videostore {
   color: #ffffff;
 }
 .book_online_step_1 a.btn-orange:hover {
-  background: #0f1214;
+  background: #225685;
   color: #ffffff;
 }
 
@@ -2491,7 +2491,7 @@ span#videostore {
   color: #0f1214;
 }
 .about_repair_style_2 .btn-orange:hover {
-  background: #0f1214;
+  background: #225685;
   color: #ffffff;
 }
 
@@ -2873,8 +2873,8 @@ span#videostore {
   padding-bottom: 0;
 }
 .footer_section {
-  background-color: #0f1214;
-  border-top: 30px solid #225685;
+  background-color: #225685;
+  border-top: 30px solid #ae2a2d;
 }
 .footer_section .col-md-4:last-child .footer_box {
   padding-left: 145px;
@@ -2911,7 +2911,7 @@ span#videostore {
 }
 .footer_box span i {
   margin-right: 10px;
-  color: #225685;
+  color: #ae2a2d;
 }
 .footer_box.latest_posts {
   padding: 0 48px 0 17px;

@@ -7,7 +7,7 @@
             Your Aircondd stopped working, don't worry and book online today!
           </h1>
           <a class="btn-orange btn_mr" href="contact">Book Online</a>
-          <a class="btn-orange btn-white" href="contact">Request a Quote</a>
+          <a class="btn-orange btn-mr" href="contact">Request a Quote</a>
         </div>
         <!--end .col-md-8-->
       </div>
@@ -19,8 +19,8 @@
 
 <script>
 export default {
-  name: 'CallToAction'
-}
+  name: "CallToAction",
+};
 </script>
 
 <style scoped></style>
