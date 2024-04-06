@@ -8,8 +8,8 @@
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
                 <h2>
-                  Expert solutions for Aircond: Maintenance, Installation,
-                  Repair, Chemical Services.
+                  Expert solutions for Aircond: Maintenance, Installation, Repair,
+                  Chemical Services.
                 </h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
@@ -24,8 +24,8 @@
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
                 <h2>
-                  Expert solutions for Aircond: Maintenance, Installation,
-                  Repair, Chemical Services.
+                  Expert solutions for Aircond: Maintenance, Installation, Repair,
+                  Chemical Services.
                 </h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
@@ -33,15 +33,15 @@
           </div>
         </div>
       </div>
-      <div class="header_slider_bg">
+      <div class="header_slider_bg slider_bg_3">
         <div class="container">
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
                 <h2>
-                  Expert solutions for Aircond: Maintenance, Installation,
-                  Repair, Chemical Services.
+                  Expert solutions for Aircond: Maintenance, Installation, Repair,
+                  Chemical Services.
                 </h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
