@@ -24,10 +24,10 @@
           <div class="footer_box service">
             <h3>Services</h3>
             <ul>
-              <li><a href="/services">Aircond Maintenance</a></li>
-              <li><a href="/services">Aircond Installation</a></li>
               <li><a href="/services">Aircond Repair</a></li>
-              <li><a href="/services">Aircond Chemical Services</a></li>
+              <li><a href="/services">Aircond Installation</a></li>
+              <li><a href="/services">Aircond Maintenance</a></li>
+              <li><a href="/services">Aircond Replacement</a></li>
             </ul>
           </div>
           <!--end .footer_box-->
@@ -50,11 +50,13 @@
             <h3>Contact Us</h3>
             <span
               ><i class="fa fa-map-pin"></i>
-              <a href="mailto:abc">Shop 001, Street 001, Malaysia.</a>
+              <a href="#">Shop 001, Street 001, Malaysia.</a>
             </span>
             <span class="support_email"
               ><i class="fa fa-envelope"></i>
-              <a href="mailto:abc">needhelp@fkAircond.com</a>
+              <a href="mailto:info@fkaircondservices.com"
+                >info@fkaircondservices.com</a
+              >
             </span>
             <span class="support_num"
               ><i class="fa fa-phone-square"></i>

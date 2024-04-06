@@ -7,7 +7,9 @@
             <div class="header_left_contact">
               <ul>
                 <li><i class="fa fa-phone"></i> +60-11-6441-8255</li>
-                <li><i class="fa fa-envelope"></i> needhelp@FKairconds.com</li>
+                <li>
+                  <i class="fa fa-envelope"></i> info@fkaircondservices.com
+                </li>
                 <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
               </ul>
             </div>
