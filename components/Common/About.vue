@@ -48,7 +48,7 @@
           <div class="about_support">
             <div class="about_support_flex">
               <i class="icon-support"></i>
-              <p>Book your appointment <br /><span>666 888 0000</span></p>
+              <p>Book your appointment <br /><span>+60-11-6441-8255</span></p>
             </div>
             <!--end .about_support_flex-->
           </div>
@@ -64,8 +64,8 @@
 
 <script>
 export default {
-  name: 'About'
-}
+  name: "About",
+};
 </script>
 
 <style scoped></style>

@@ -58,7 +58,7 @@
             </span>
             <span class="support_num"
               ><i class="fa fa-phone-square"></i>
-              <a href="">666 888 0000</a></span
+              <a href="">+60-11-6441-8255</a></span
             >
           </div>
           <!--end .footer_box-->

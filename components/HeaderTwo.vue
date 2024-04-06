@@ -6,7 +6,7 @@
           <div class="col-md-6">
             <div class="header_left_contact">
               <ul>
-                <li><i class="fa fa-phone"></i> 666 888 0000</li>
+                <li><i class="fa fa-phone"></i> +60-11-6441-8255</li>
                 <li><i class="fa fa-envelope"></i> needhelp@FKairconds.com</li>
                 <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
               </ul>
@@ -15,7 +15,7 @@
           <div class="col-md-6">
             <div class="header_left_contact header_right_contact text-right">
               <p>
-                Looking for an engineer for your appliance repair?
+                Looking for an engineer for your Aircod repair?
                 <a href="#">Click Here</a>
               </p>
             </div>
@@ -46,7 +46,77 @@
                   <ul class="nav navbar-nav">
                     <li><nuxt-link to="/">Home</nuxt-link></li>
                     <li><nuxt-link to="/about">About</nuxt-link></li>
-                    <li><nuxt-link to="/services">Services</nuxt-link></li>
+                    <li>
+                      <nuxt-link to="/services">Services</nuxt-link>
+                      <span
+                        class="responsive_click_menu fa fa-angle-down"
+                      ></span>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <nuxt-link to="/services"
+                            >Aircond Maintenance</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Installation</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Repair</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Replacement</nuxt-link
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <nuxt-link to="/services">Chemical Service</nuxt-link>
+                      <span
+                        class="responsive_click_menu fa fa-angle-down"
+                      ></span>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Overhaul Cleaning</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Chemical Cleaning
+                          </nuxt-link>
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Repair All AirCond Brands
+                          </nuxt-link>
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Chemical Services</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Chemical Services</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Chemical Services</nuxt-link
+                          >
+                        </li>
+                        <li>
+                          <nuxt-link to="/service-refrigerator"
+                            >Aircond Chemical Services</nuxt-link
+                          >
+                        </li>
+                      </ul>
+                    </li>
                     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                   </ul>
                   <!-- end .nav .navbar-nav -->

@@ -18,7 +18,7 @@
                 <ul class="nav navbar-nav">
                   <li><nuxt-link to="/">Home</nuxt-link></li>
                   <li><nuxt-link to="/about">About</nuxt-link></li>
-                  <li><nuxt-link to="/services">Services</nuxt-link></li>
+                  <li><nuxt-link to="/services">Aircond</nuxt-link></li>
                   <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                 </ul>
               </div>
@@ -43,7 +43,7 @@
                 </ul>
                 <span class="contact_us">
                   Call us today<br />
-                  <span>666 888 0000</span>
+                  <span>+60-11-6441-8255</span>
                 </span>
               </div>
               <!--end .header-social-right-->

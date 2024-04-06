@@ -207,7 +207,7 @@
             <!--end .service_widgets-->
             <div class="services_support">
               <i class="icon-support"></i>
-              <p>Book your appointment <span>666 888 0000</span></p>
+              <p>Book your appointment <span>+60-11-6441-8255</span></p>
             </div>
             <!--end .services_support-->
           </div>
@@ -223,8 +223,8 @@
 
 <script>
 export default {
-  name: 'ServiceDetails'
-}
+  name: "ServiceDetails",
+};
 </script>
 
 <style scoped></style>
