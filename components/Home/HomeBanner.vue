@@ -8,40 +8,67 @@
               <div class="header_slide_text">
                 <p>Committed to top quality services</p>
                 <h2>
-                  Expert solutions for Airconditioning: Maintenance,
-                  Installation, Repair, Chemical Services.
+                  Expert solutions for Aircond: Maintenance, Installation,
+                  Repair, Chemical Services.
                 </h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
-              <!--end .header_slide_text-->
             </div>
-            <!--end .col-md-7-->
           </div>
-          <!--end .row-->
         </div>
-        <!--end .container-->
+      </div>
+      <div class="header_slider_bg slider_bg_2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="header_slide_text">
+                <p>Committed to top quality services</p>
+                <h2>
+                  Expert solutions for Aircond: Maintenance, Installation,
+                  Repair, Chemical Services.
+                </h2>
+                <a href="/contact" class="btn-orange">Book Online</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_slider_bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="header_slide_text">
+                <p>Committed to top quality services</p>
+                <h2>
+                  Expert solutions for Aircond: Maintenance, Installation,
+                  Repair, Chemical Services.
+                </h2>
+                <a href="/contact" class="btn-orange">Book Online</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!--end .header_slider_area-->
   </section>
 </template>
 
 <script>
 export default {
-  name: 'HomeBanner',
-  mounted () {
-    $('.header_slider_area').owlCarousel({
+  name: "HomeBanner",
+  mounted() {
+    $(".header_slider_area").owlCarousel({
       items: 1,
       autoHeight: true,
       autoplay: true,
       loop: true,
       nav: false,
       dots: true,
-      animateIn: 'fadeIn',
-      animateOut: 'fadeOut'
-    })
-  }
-}
+      animateIn: "fadeIn",
+      animateOut: "fadeOut",
+    });
+  },
+};
 </script>
 
 <style scoped></style>

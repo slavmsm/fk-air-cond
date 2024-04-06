@@ -646,19 +646,7 @@ ul.breadcrumb li a:hover {
   -ms-flex: 1;
   flex: 1;
 }
-.main_menu_area .header-social-right ul:before,
-.main_menu_area .logo:before {
-  content: "";
-  background: #eef3f9;
-  width: 2px;
-  height: 110px;
-  position: absolute;
-  right: -20px;
-  top: -35px;
-}
-.main_menu_area .logo:before {
-  height: 113px;
-}
+
 .main_menu_area .navbar-nav > li > .dropdown-menu:before {
   content: "";
   border-left: 10px solid transparent;
@@ -1836,13 +1824,13 @@ span#videostore {
   position: relative;
 }
 .why_choose_box_2_img {
-  background: url("../images/why_choose_us_1.jpg") center center no-repeat;
+  background: url("../images/aircond-repair.jpg") center center no-repeat;
   background-size: cover;
   width: 100%;
   height: 445px;
 }
 .why_choose_box_2_img.bg_2 {
-  background: url("../images/why_choose_us_2.jpg") center center no-repeat;
+  background: url("../images/repair-service.svg") center center no-repeat;
   background-size: cover;
 }
 .why_choose_box_2_area.section_padding {
@@ -2803,7 +2791,7 @@ span#videostore {
 }
 .contact_form_area {
   position: relative;
-  padding-bottom: 0;
+  padding-bottom: 10px;
   z-index: 9999;
 }
 .contact_form_area .hero-section-title .icon-snowflake {
