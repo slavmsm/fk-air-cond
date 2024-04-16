@@ -7,15 +7,15 @@
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
               <h4>HOW WE REPAIR</h4>
-              <h1>All type of refrigerator repairs</h1>
+              <h1>BioAire Air Cond Solutions</h1>
             </div>
             <!--end .hero-section-title-->
             <p>
-              At FK Airconds, we are driven by customer satisfaction. One way we
-              deliver that is through expert refrigerator repair! We service all
-              types of refrigerators, including top freezer, bottom freezer,
-              French door, ice maker, salad bars, compact, and more. We can also
-              replace or repair any part on your regrigerator.
+              At FK Airconds, we are driven by customer satisfaction. One way we deliver
+              that is through expert refrigerator repair! We service all types of
+              refrigerators, including top freezer, bottom freezer, French door, ice
+              maker, salad bars, compact, and more. We can also replace or repair any part
+              on your regrigerator.
             </p>
             <a class="btn-orange" href="#">Contact Us</a>
           </div>
@@ -25,7 +25,7 @@
         <div class="col-md-6">
           <div class="repair_details_right text-right">
             <img src="/assets/images/repair.jpg" alt="repair image" />
-            <a
+            <!-- <a
               href="#videostore2"
               class="video-img"
               data-video="https://www.youtube.com/embed/A7ZkZazfvao"
@@ -42,7 +42,7 @@
                 allow="autoplay;encrypted-media"
                 allowfullscreen
               ></iframe>
-            </div>
+            </div> -->
             <!--end #videostore2-->
           </div>
           <!--end .repair_details_right-->
@@ -57,14 +57,14 @@
 
 <script>
 export default {
-  name: 'RepairSection',
-  mounted () {
-    $('#videolink2').magnificPopup({
-      type: 'inline',
-      midClick: true
-    })
-  }
-}
+  name: "RepairSection",
+  mounted() {
+    $("#videolink2").magnificPopup({
+      type: "inline",
+      midClick: true,
+    });
+  },
+};
 </script>
 
 <style scoped></style>
