@@ -6,11 +6,8 @@
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
-                <p>Committed to top quality services</p>
-                <h2>
-                  Expert solutions for Aircond: Maintenance, Installation, Repair,
-                  Chemical Services.
-                </h2>
+                <p>Air Conditioning Service & Repair You Can Rely On.</p>
+                <h2>Our technicians are highly skilled with superior backgrounds.</h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
             </div>
@@ -22,11 +19,8 @@
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
-                <p>Committed to top quality services</p>
-                <h2>
-                  Expert solutions for Aircond: Maintenance, Installation, Repair,
-                  Chemical Services.
-                </h2>
+                <p>Air Conditioning Service & Repair You Can Rely On.</p>
+                <h2>Our technicians are highly skilled with superior backgrounds.</h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
             </div>
@@ -38,11 +32,8 @@
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
-                <p>Committed to top quality services</p>
-                <h2>
-                  Expert solutions for Aircond: Maintenance, Installation, Repair,
-                  Chemical Services.
-                </h2>
+                <p>Air Conditioning Service & Repair You Can Rely On.</p>
+                <h2>Our technicians are highly skilled with superior backgrounds.</h2>
                 <a href="/contact" class="btn-orange">Book Online</a>
               </div>
             </div>
