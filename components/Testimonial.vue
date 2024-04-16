@@ -53,7 +53,7 @@
             <div class="testimonial_details">
               <p>
                 "I was impressed by the thorough chemical cleaning FK Aircond
-                Services provided for my Airconditioner. It's now running more
+                Services provided for my Airconder. It's now running more
                 efficiently than ever before. Thank you for your excellent
                 work!"
               </p>
@@ -67,7 +67,7 @@
             <!--end  .testimonial_details-->
             <div class="testimonial_details">
               <p>
-                "FK Aircond Services installed a new Airconditioner in my home,
+                "FK Aircond Services installed a new Airconder in my home,
                 and I couldn't be happier with the results. The installation was
                 smooth, and their team was courteous and knowledgeable
                 throughout the process. I will definitely use their services
