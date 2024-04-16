@@ -7,9 +7,7 @@
             <div class="header_left_contact">
               <ul>
                 <li><i class="fa fa-phone"></i> +60-11-6441-8255</li>
-                <li>
-                  <i class="fa fa-envelope"></i> info@fkaircondservices.com
-                </li>
+                <li><i class="fa fa-envelope"></i> info@fkaircondservices.com</li>
                 <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
               </ul>
             </div>
@@ -50,23 +48,17 @@
                     <li><nuxt-link to="/about">About</nuxt-link></li>
                     <li>
                       <nuxt-link to="/services">Services</nuxt-link>
-                      <span
-                        class="responsive_click_menu fa fa-angle-down"
-                      ></span>
+                      <span class="responsive_click_menu fa fa-angle-down"></span>
                       <ul class="dropdown-menu">
                         <li>
-                          <nuxt-link to="/services"
-                            >Aircond Maintenance</nuxt-link
-                          >
+                          <nuxt-link to="/aircond-repair">Aircond Repair</nuxt-link>
+                        </li>
+                        <li>
+                          <nuxt-link to="/services">Aircond Maintenance</nuxt-link>
                         </li>
                         <li>
                           <nuxt-link to="/service-refrigerator"
                             >Aircond Installation</nuxt-link
-                          >
-                        </li>
-                        <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Repair</nuxt-link
                           >
                         </li>
                         <li>
@@ -78,9 +70,7 @@
                     </li>
                     <li>
                       <nuxt-link to="/services">Chemical Service</nuxt-link>
-                      <span
-                        class="responsive_click_menu fa fa-angle-down"
-                      ></span>
+                      <span class="responsive_click_menu fa fa-angle-down"></span>
                       <ul class="dropdown-menu">
                         <li>
                           <nuxt-link to="/service-refrigerator"
@@ -191,15 +181,9 @@ export default {
         e.stopPropagation();
       }
     );
-    $(document).on(
-      "click",
-      ".main_menu_area .header_nav .navbar-toggle",
-      function () {
-        $(".main_menu_area .responsive_menu").toggleClass(
-          "responsive_menu_show"
-        );
-      }
-    );
+    $(document).on("click", ".main_menu_area .header_nav .navbar-toggle", function () {
+      $(".main_menu_area .responsive_menu").toggleClass("responsive_menu_show");
+    });
   },
 };
 </script>
