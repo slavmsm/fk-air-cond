@@ -54,17 +54,15 @@
                           <nuxt-link to="/aircond-repair">Aircond Repair</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/aircond-maintenance">Aircond Maintenance</nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Installation</nuxt-link
+                          <nuxt-link to="/aircond-maintenance"
+                            >Aircond Maintenance</nuxt-link
                           >
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Replacement</nuxt-link
-                          >
+                          <nuxt-link to="#">Aircond Installation</nuxt-link>
+                        </li>
+                        <li>
+                          <nuxt-link to="#">Aircond Replacement</nuxt-link>
                         </li>
                       </ul>
                     </li>

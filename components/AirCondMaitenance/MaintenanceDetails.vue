@@ -38,6 +38,7 @@
         </div>
         <div class="col-md-6">
           <div>
+            <h1 class="text-center">AirCond Maintenance for Peak Performance</h1>
             <p class="mb_30 text-justify">
               When it comes to our AirCond maintenance process, it all starts with a
               thorough examination of the unit to pinpoint potential issues. Our
@@ -66,7 +67,7 @@
         </div>
         <div class="col-md-6">
           <div>
-            <h1 class="text-center">AirCond Maintenance for Peak Performance</h1>
+            <h1 class="text-center">AirCond Maintenance Solutions</h1>
             <p class="mb_30 text-justify">
               Our AirCond maintenance services in Malaysia are tailored to ensure the
               correct installation and optimal configuration of your air conditioning
