@@ -55,7 +55,7 @@ export default {
           alt: "Our Partners",
         },
         {
-          src: "assets/images/our-partners/mitsubishi.png",
+          src: "assets/images/our-partners/mitsubishi1.png",
 
           width: 250,
           alt: "Our Partners",
@@ -116,7 +116,7 @@ export default {
           alt: "Our Partners",
         },
         {
-          src: "assets/images/our-partners/mitsubishi.png",
+          src: "assets/images/our-partners/mitsubishi1.png",
 
           width: 250,
           alt: "Our Partners",
