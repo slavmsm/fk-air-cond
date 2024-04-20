@@ -3,11 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <h1>
-            Your Aircond stopped working, don't worry and book online today!
-          </h1>
-          <a class="btn-orange btn_mr" href="contact">Book Online</a>
-          <a class="btn-orange btn-mr" href="contact">Request a Quote</a>
+          <h1>Your Aircond stopped working, don't worry and book online today!</h1>
+          <a class="btn-orange btn_mr" href="/book-online">Book Online</a>
+          <a class="btn-orange btn-mr" href="/contact">Request a Quote</a>
         </div>
       </div>
     </div>

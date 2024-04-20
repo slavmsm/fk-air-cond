@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageHeader title="About Us" />
-    <RepairSectionTwo />
+    <AboutSection />
     <OurPartners />
     <Counter />
     <About />
@@ -12,17 +12,15 @@
 
 <script>
 import PageHeader from "~/components/PageHeader";
-import RepairSectionTwo from "~/components/RepairSectionTwo";
+import AboutSection from "~/components/About/AboutSection";
 import OurPartners from "../components/Common/OurPartners.vue";
 import Counter from "~/components/Counter";
-import About from "~/components/Common/About";
 import Testimonial from "~/components/Testimonial";
 import CallToAction from "~/components/CallToAction";
 export default {
   components: {
     PageHeader,
-    About,
-    RepairSectionTwo,
+    AboutSection,
     OurPartners,
     Counter,
     Testimonial,
