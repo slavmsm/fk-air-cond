@@ -8,7 +8,7 @@
               <div class="header_slide_text">
                 <p>Air Conditioning Service & Repair You Can Rely On.</p>
                 <h2>Our technicians are highly skilled with superior backgrounds.</h2>
-                <a href="/contact" class="btn-orange">Book Online</a>
+                <a href="/about" class="btn-orange">Read More</a>
               </div>
             </div>
           </div>
@@ -21,7 +21,7 @@
               <div class="header_slide_text">
                 <p>Air Conditioning Service & Repair You Can Rely On.</p>
                 <h2>Our technicians are highly skilled with superior backgrounds.</h2>
-                <a href="/contact" class="btn-orange">Book Online</a>
+                <a href="/about" class="btn-orange">Read More</a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
               <div class="header_slide_text">
                 <p>Air Conditioning Service & Repair You Can Rely On.</p>
                 <h2>Our technicians are highly skilled with superior backgrounds.</h2>
-                <a href="/contact" class="btn-orange">Book Online</a>
+                <a href="/about" class="btn-orange">Read More</a>
               </div>
             </div>
           </div>

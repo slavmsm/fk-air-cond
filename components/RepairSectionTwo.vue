@@ -7,14 +7,14 @@
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
               <h4>HOW WE REPAIR</h4>
-              <h1>BioAire Air Cond Solutions</h1>
+              <h1>FK Air Cond Solutions</h1>
             </div>
             <p>
-              At FK Airconds, we are driven by customer satisfaction. One way we deliver
-              that is through expert refrigerator repair! We service all types of
-              refrigerators, including top freezer, bottom freezer, French door, ice
-              maker, salad bars, compact, and more. We can also replace or repair any part
-              on your refrigerator.
+              Located in Malaysia, FK Aircond Services specializes in comprehensive
+              Airconding solutions. Our services include chemical cleaning, overhaul
+              clean, and repair for all brands. We meticulously clean and check air
+              filters, front panels, and covers. Additionally, we offer installation of
+              new units and dismantle services for existing Airconds.
             </p>
             <a class="btn-orange" href="#">Contact Us</a>
           </div>
