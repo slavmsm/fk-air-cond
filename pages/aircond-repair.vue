@@ -6,7 +6,7 @@
 </template>
 <script>
 import PageHeader from "~/components/PageHeader";
-import RepairDetails from "~/components/AirCondRepair/RepairDetails";
+import RepairDetails from "~/components/AircondRepair/RepairDetails";
 export default {
   components: {
     RepairDetails,

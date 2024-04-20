@@ -18,7 +18,7 @@ export default {
       {
         rel: "icon",
         type: "image/png",
-        href: "assets/logo/fk-aircond-icon.png",
+        href: "assets/logo/fk-Aircond-icon.png",
       },
 
       { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },

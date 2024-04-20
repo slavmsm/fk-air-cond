@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
-                <p>Air Conditioning Service & Repair You Can Rely On.</p>
+                <p>Aircond Service & Repair You Can Rely On.</p>
                 <h2>Our technicians are highly skilled with superior backgrounds.</h2>
                 <a href="/about" class="btn-orange">Read More</a>
               </div>
@@ -19,7 +19,7 @@
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
-                <p>Air Conditioning Service & Repair You Can Rely On.</p>
+                <p>Aircond Service & Repair You Can Rely On.</p>
                 <h2>Our technicians are highly skilled with superior backgrounds.</h2>
                 <a href="/about" class="btn-orange">Read More</a>
               </div>
@@ -32,7 +32,7 @@
           <div class="row">
             <div class="col-md-7">
               <div class="header_slide_text">
-                <p>Air Conditioning Service & Repair You Can Rely On.</p>
+                <p>Aircond Service & Repair You Can Rely On.</p>
                 <h2>Our technicians are highly skilled with superior backgrounds.</h2>
                 <a href="/about" class="btn-orange">Read More</a>
               </div>

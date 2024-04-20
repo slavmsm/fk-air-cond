@@ -7,7 +7,7 @@
             <div class="header_left_contact">
               <ul>
                 <li><i class="fa fa-phone"></i> +60-11-6441-8255</li>
-                <li><i class="fa fa-envelope"></i> info@fkaircondservices.com</li>
+                <li><i class="fa fa-envelope"></i> info@fkAircondservices.com</li>
                 <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
               </ul>
             </div>
@@ -37,7 +37,7 @@
                   <span class="icon-menu"><i class="fa fa-bars"></i></span>
                 </button>
                 <a class="navbar-brand logo" href="/">
-                  <img src="assets/logo/fk-aircond-landshape.svg" alt="logo" />
+                  <img src="assets/logo/fk-Aircond-landshape.svg" alt="logo" />
                 </a>
               </div>
               <!-- end .col-md-2 .col-sm-5 .logo_columns -->
@@ -51,10 +51,10 @@
                       <span class="responsive_click_menu fa fa-angle-down"></span>
                       <ul class="dropdown-menu">
                         <li>
-                          <nuxt-link to="/aircond-repair">Aircond Repair</nuxt-link>
+                          <nuxt-link to="/Aircond-repair">Aircond Repair</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/aircond-maintenance"
+                          <nuxt-link to="/Aircond-maintenance"
                             >Aircond Maintenance</nuxt-link
                           >
                         </li>
@@ -82,7 +82,7 @@
                         </li>
                         <li>
                           <nuxt-link to="/service-refrigerator"
-                            >Repair All AirCond Brands
+                            >Repair All Aircond Brands
                           </nuxt-link>
                         </li>
                         <li>

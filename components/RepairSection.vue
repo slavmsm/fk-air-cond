@@ -7,7 +7,7 @@
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
               <h4>HOW WE REPAIR</h4>
-              <h1>FK Air Cond Solutions</h1>
+              <h1>FK Aircond Solutions</h1>
             </div>
             <!--end .hero-section-title-->
             <p>

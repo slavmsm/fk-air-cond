@@ -3,7 +3,7 @@
     <div class="container">
       <div>
         <img
-          src="assets/logo/fk-aircond-logo.svg"
+          src="assets/logo/fk-Aircond-logo.svg"
           alt="Footer Logo"
           width="100"
         />
@@ -54,8 +54,8 @@
             </span>
             <span class="support_email"
               ><i class="fa fa-envelope"></i>
-              <a href="mailto:info@fkaircondservices.com"
-                >info@fkaircondservices.com</a
+              <a href="mailto:info@fkAircondservices.com"
+                >info@fkAircondservices.com</a
               >
             </span>
             <span class="support_num"

@@ -7,7 +7,7 @@
             <div class="hero-section-title">
               <i class="icon-snowflake"></i>
               <h4>HOW WE REPAIR</h4>
-              <h1>FK Air Cond Solutions</h1>
+              <h1>FK Aircond Solutions</h1>
             </div>
             <p>
               Located in Malaysia, FK Aircond Services specializes in comprehensive
@@ -24,21 +24,21 @@
             <div class="grid-row">
               <div>
                 <img src="/assets/images/ac-install.png" alt="about image" />
-                <p>Air Cond Installation</p>
+                <p>Aircond Installation</p>
               </div>
               <div>
                 <img src="/assets/images/ac-maintenance.png" alt="about image" />
-                <p>Air Cond-Maintenance</p>
+                <p>Aircond-Maintenance</p>
               </div>
             </div>
             <div class="grid-row">
               <div>
                 <img src="/assets/images/ac-repair.png" alt="about image" />
-                <p>Air Cond Repair</p>
+                <p>Aircond Repair</p>
               </div>
               <div>
                 <img src="/assets/images/ac-replace.png" alt="about image" />
-                <p>Air Cond Replacement</p>
+                <p>Aircond Replacement</p>
               </div>
             </div>
           </div>
