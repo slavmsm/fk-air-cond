@@ -1,24 +1,24 @@
 <template>
   <div>
     <PageHeader title="Book Online" />
-    <BookOnline />
+    <ContactHome />
     <WhyChooseUs />
   </div>
 </template>
 <script>
-import PageHeader from '~/components/PageHeader'
-import BookOnline from '~/components/BookOnline'
-import WhyChooseUs from '~/components/WhyChooseUs'
+import PageHeader from "~/components/PageHeader";
+import ContactHome from "../components/ContactHome.vue";
+import WhyChooseUs from "~/components/WhyChooseUs";
 export default {
   components: {
     PageHeader,
-    BookOnline,
-    WhyChooseUs
+    ContactHome,
+    WhyChooseUs,
   },
-  head () {
+  head() {
     return {
-      title: 'FK Airconds | Book Online'
-    }
-  }
-}
+      title: "FK Airconds | Book Online",
+    };
+  },
+};
 </script>

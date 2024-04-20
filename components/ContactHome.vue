@@ -2,13 +2,6 @@
   <section class="contact_form_area section_padding">
     <div class="container">
       <div class="row">
-        <!-- <div class="col-md-6 col-sm-6">
-          <img
-            class="contact_img"
-            src="/assets/images/BOOK-APPOINTMENT.png"
-            alt="BOOK-APPOINTMENT"
-          />
-        </div> -->
         <div class="col-12">
           <div class="contact-details">
             <div class="hero-section-title">
@@ -40,20 +33,16 @@
                 class="gray_bg input_half_width"
                 type="text"
                 name="zipcode"
-                placeholder="Zip code"
+                placeholder="Location"
               />
               <span class="select_icon">
-                <select
-                  class="gray_bg contact_select"
-                  name="select"
-                  id="select"
-                >
+                <select class="gray_bg contact_select" name="select" id="select">
                   <option value="select-a-service">Select a service</option>
-                  <option value="1">Service 1</option>
-                  <option value="2">Service 2</option>
-                  <option value="3">Service 3</option>
-                  <option value="4">Service 4</option>
-                  <option value="5">Service 5</option>
+                  <option value="1">Repairing</option>
+                  <option value="2">Installation</option>
+                  <option value="3">Maintenance</option>
+                  <option value="4">Replacement</option>
+                  <option value="5">Chemical Services</option>
                 </select>
               </span>
               <textarea
@@ -64,11 +53,7 @@
                 rows="10"
                 placeholder="Write message"
               ></textarea>
-              <button
-                class="btn-orange"
-                type="submit"
-                value="Request a Quote Now"
-              >
+              <button class="btn-orange" type="submit" value="Request a Quote Now">
                 Request a Quote Now
               </button>
             </form>
