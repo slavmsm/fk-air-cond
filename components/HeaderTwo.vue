@@ -15,7 +15,7 @@
           <div class="col-md-6">
             <div class="header_left_contact header_right_contact text-right">
               <p>
-                Looking for an engineer for your Aircod repair?
+                Looking for an engineer for your Aircond repair?
                 <a href="#">Click Here</a>
               </p>
             </div>
@@ -64,7 +64,9 @@
                           >
                         </li>
                         <li>
-                          <nuxt-link to="#">Aircond Replacement</nuxt-link>
+                          <nuxt-link to="aircond-replacement"
+                            >Aircond Replacement</nuxt-link
+                          >
                         </li>
                       </ul>
                     </li>
@@ -73,39 +75,25 @@
                       <span class="responsive_click_menu fa fa-angle-down"></span>
                       <ul class="dropdown-menu">
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Overhaul Cleaning</nuxt-link
-                          >
+                          <nuxt-link to="#">Overhaul Cleaning</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Chemical Cleaning
-                          </nuxt-link>
+                          <nuxt-link to="#">Chemical Cleaning </nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Repair All Aircond Brands
-                          </nuxt-link>
+                          <nuxt-link to="#">Repair All Aircond Brands </nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Chemical Services</nuxt-link
-                          >
+                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Chemical Services</nuxt-link
-                          >
+                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Chemical Services</nuxt-link
-                          >
+                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/service-refrigerator"
-                            >Aircond Chemical Services</nuxt-link
-                          >
+                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
                         </li>
                       </ul>
                     </li>
@@ -121,16 +109,18 @@
                 <div class="hv2_header-social-right text-right">
                   <ul>
                     <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a
+                        href="https://www.facebook.com/fkaircondservices/"
+                        target="_blank"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-youtube-play"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a
+                        href="https://www.instagram.com/fkaircondservices/"
+                        target="_blank"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
                     </li>
                     <li class="hv2_contact_us">
                       <nuxt-link class="btn-orange" to="/book-online"

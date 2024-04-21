@@ -29,16 +29,14 @@
               <div class="header-social-right">
                 <ul>
                   <li>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/fkaircondservices/" target="_blank"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.instagram.com/fkaircondservices/" target="_blank"
+                      ><i class="fa fa-instagram"></i
+                    ></a>
                   </li>
                 </ul>
                 <span class="contact_us">
@@ -87,15 +85,9 @@ export default {
         e.stopPropagation();
       }
     );
-    $(document).on(
-      "click",
-      ".main_menu_area .header_nav .navbar-toggle",
-      function () {
-        $(".main_menu_area .responsive_menu").toggleClass(
-          "responsive_menu_show"
-        );
-      }
-    );
+    $(document).on("click", ".main_menu_area .header_nav .navbar-toggle", function () {
+      $(".main_menu_area .responsive_menu").toggleClass("responsive_menu_show");
+    });
   },
 };
 </script>
