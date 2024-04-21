@@ -51,15 +51,17 @@
                       <span class="responsive_click_menu fa fa-angle-down"></span>
                       <ul class="dropdown-menu">
                         <li>
-                          <nuxt-link to="/Aircond-repair">Aircond Repair</nuxt-link>
+                          <nuxt-link to="/aircond-repair">Aircond Repair</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/Aircond-maintenance"
+                          <nuxt-link to="/aircond-maintenance"
                             >Aircond Maintenance</nuxt-link
                           >
                         </li>
                         <li>
-                          <nuxt-link to="#">Aircond Installation</nuxt-link>
+                          <nuxt-link to="/aircond-installation"
+                            >Aircond Installation</nuxt-link
+                          >
                         </li>
                         <li>
                           <nuxt-link to="#">Aircond Replacement</nuxt-link>

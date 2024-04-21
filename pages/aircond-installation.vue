@@ -1,23 +1,23 @@
 <template>
   <div>
-    <PageHeader title="Aircond Repair" />
-    <RepairDetails />
+    <PageHeader title="Aircond Installation" />
+    <InstallationDetails />
     <CallToAction />
   </div>
 </template>
 <script>
 import PageHeader from "~/components/PageHeader";
-import RepairDetails from "~/components/AircondRepair/RepairDetails";
+import InstallationDetails from "~/components/AircondInstallation/InstallationDetails";
 import CallToAction from "~/components/CallToAction";
 export default {
   components: {
-    RepairDetails,
+    InstallationDetails,
     PageHeader,
     CallToAction,
   },
   head() {
     return {
-      title: "FK Airconds | Aircond Repair",
+      title: "FK Airconds | Aircond Installation",
     };
   },
 };
