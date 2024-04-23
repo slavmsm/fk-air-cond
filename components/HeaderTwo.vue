@@ -37,7 +37,7 @@
                   <span class="icon-menu"><i class="fa fa-bars"></i></span>
                 </button>
                 <a class="navbar-brand logo" href="/">
-                  <img src="assets/logo/fk-Aircond-landshape.svg" alt="logo" />
+                  <img src="assets/logo/fk-aircond-landshape.svg" alt="logo" />
                 </a>
               </div>
               <!-- end .col-md-2 .col-sm-5 .logo_columns -->

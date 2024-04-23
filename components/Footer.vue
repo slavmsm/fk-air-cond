@@ -2,7 +2,7 @@
   <footer class="footer_section section_padding">
     <div class="container">
       <div>
-        <img src="assets/logo/fk-Aircond-logo.svg" alt="Footer Logo" width="100" />
+        <img src="assets/logo/fk-aircond-logo.svg" alt="Footer Logo" width="100" />
       </div>
       <div class="row">
         <div class="col-md-3 col-sm-6">

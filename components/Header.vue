@@ -10,7 +10,7 @@
                 <span class="icon-menu"><i class="fa fa-bars"></i></span>
               </button>
               <a class="logo" href="/">
-                <img src="assets/logo/fk-Aircond-landshape.svg" alt="logo" />
+                <img src="assets/logo/fk-aircond-landshape.svg" alt="logo" />
               </a>
             </div>
             <div class="navbar_flex responsive_menu">
