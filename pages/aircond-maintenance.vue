@@ -7,7 +7,7 @@
 </template>
 <script>
 import PageHeader from "~/components/PageHeader";
-import MaintenanceDetails from "~/components/AircondMaitenance/MaintenanceDetails";
+import MaintenanceDetails from "../components/AirCondMaitenance/MaintenanceDetails";
 import CallToAction from "~/components/CallToAction";
 export default {
   components: {
