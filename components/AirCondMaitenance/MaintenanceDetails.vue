@@ -19,11 +19,11 @@
         <div class="col-md-12">
           <div class="repair-image">
             <img
-              src="assets/images/Aircond-maintain/ac-maintain.png"
+              src="assets/images/aircond-maintain/ac-maintain.png"
               alt="Services Image"
             />
             <img
-              src="assets/images/Aircond-maintain/ac-maintaining-and-repairing-2-1.png"
+              src="assets/images/aircond-maintain/ac-maintaining-and-repairing-2-1.png"
               alt="Services Image"
             />
             <p class="mb_30 text-justify">
@@ -52,7 +52,7 @@
         <div class="col-md-6">
           <div class="repair-image">
             <img
-              src="assets/images/Aircond-maintain/ac-maintaining-and-repairing.png"
+              src="assets/images/aircond-maintain/ac-maintaining-and-repairing.png"
               alt="Services Image"
             />
           </div>
@@ -60,7 +60,7 @@
         <div class="col-md-6">
           <div class="repair-image">
             <img
-              src="assets/images/Aircond-maintain/maintainance-ac.jpg"
+              src="assets/images/aircond-maintain/maintainance-ac.jpg"
               alt="Services Image"
             />
           </div>

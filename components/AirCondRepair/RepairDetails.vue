@@ -15,9 +15,9 @@
         </div>
         <div class="col-md-12">
           <div class="repair-image">
-            <img src="assets/images/Aircond-repair/installing-ac.jpg" alt="blog image" />
+            <img src="assets/images/aircond-repair/installing-ac.jpg" alt="blog image" />
             <img
-              src="assets/images/Aircond-repair/professional-technician.jpg"
+              src="assets/images/aircond-repair/professional-technician.jpg"
               alt="blog image"
             />
             <p class="mb_30 text-justify">
@@ -46,12 +46,12 @@
         </div>
         <div class="col-md-6">
           <div class="repair-image">
-            <img src="assets/images/Aircond-repair/ac-fixing.jpg" alt="blog image" />
+            <img src="assets/images/aircond-repair/ac-fixing.jpg" alt="blog image" />
           </div>
         </div>
         <div class="col-md-6">
           <div class="repair-image">
-            <img src="assets/images/Aircond-repair/ac-repairman.jpg" alt="blog image" />
+            <img src="assets/images/aircond-repair/ac-repairman.jpg" alt="blog image" />
           </div>
         </div>
         <div class="col-md-6">
