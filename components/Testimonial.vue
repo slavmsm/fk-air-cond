@@ -13,22 +13,19 @@
           <div class="testimonial_image text-center">
             <ul id="custom_owl_carousel_dots">
               <li class="testimonial1 active" data-x="0">
-                <img
-                  src="/assets/images/testimonial-0.jpg"
-                  alt="testimonial img"
-                />
+                <img src="/assets/images/testimonial-0.jpg" alt="testimonial img" />
               </li>
               <li class="testimonial2" data-x="1">
-                <img
-                  src="/assets/images/testimonial-1.webp"
-                  alt="testimonial img"
-                />
+                <img src="/assets/images/testimonial-1.webp" alt="testimonial img" />
               </li>
               <li class="testimonial3" data-x="2">
-                <img
-                  src="/assets/images/testimonial-2.webp"
-                  alt="testimonial img"
-                />
+                <img src="/assets/images/testimonial-2.webp" alt="testimonial img" />
+              </li>
+              <li class="testimonial3" data-x="3">
+                <img src="/assets/images/testimonial-3.jpg" alt="testimonial img" />
+              </li>
+              <li class="testimonial3" data-x="4">
+                <img src="/assets/images/testimonial-4.png" alt="testimonial img" />
               </li>
             </ul>
           </div>
@@ -36,26 +33,22 @@
           <div class="testimonial_slider owl-carousel text-center">
             <div class="testimonial_details">
               <p>
-                "Outstanding service! FK Aircond Services did a fantastic job
-                repairing my AC unit. Their attention to detail and
-                professionalism exceeded my expectations. I highly recommend
-                their services."
+                "Outstanding service! FK Aircond Services did a fantastic job repairing my
+                AC unit. Their attention to detail and professionalism exceeded my
+                expectations. I highly recommend their services."
               </p>
               <span class="rating"
                 ><i class="fa fa-star"></i> <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i> <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-o"></i
               ></span>
-              <h3>
-                Sarah Johnson<span class="skills"> / Marketing Manager</span>
-              </h3>
+              <h3>Sarah Johnson<span class="skills"> / Marketing Manager</span></h3>
             </div>
             <div class="testimonial_details">
               <p>
-                "I was impressed by the thorough chemical cleaning FK Aircond
-                Services provided for my Airconder. It's now running more
-                efficiently than ever before. Thank you for your excellent
-                work!"
+                "I was impressed by the thorough chemical cleaning FK Aircond Services
+                provided for my Aircond. It's now running more efficiently than ever
+                before. Thank you for your excellent work!"
               </p>
               <span class="rating"
                 ><i class="fa fa-star"></i> <i class="fa fa-star"></i>
@@ -67,11 +60,36 @@
             <!--end  .testimonial_details-->
             <div class="testimonial_details">
               <p>
-                "FK Aircond Services installed a new Airconder in my home,
-                and I couldn't be happier with the results. The installation was
-                smooth, and their team was courteous and knowledgeable
-                throughout the process. I will definitely use their services
-                again."
+                "FK Aircond Services installed a new Aircond in my home, and I couldn't be
+                happier with the results. The installation was smooth, and their team was
+                courteous and knowledgeable throughout the process. I will definitely use
+                their services again."
+              </p>
+              <span class="rating"
+                ><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i
+              ></span>
+              <h3>Emily Smith<span class="skills"> / Professor</span></h3>
+            </div>
+            <div class="testimonial_details">
+              <p>
+                "FK Aircond Solutions swiftly fixed my AC, keeping me cool and
+                comfortable. Highly recommended!"
+              </p>
+              <span class="rating"
+                ><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i
+              ></span>
+              <h3>John Smith<span class="skills"> / freelancer</span></h3>
+            </div>
+            <div class="testimonial_details">
+              <p>
+                "FK Aircond Services installed a new Aircond in my home, and I couldn't be
+                happier with the results. The installation was smooth, and their team was
+                courteous and knowledgeable throughout the process. I will definitely use
+                their services again."
               </p>
               <span class="rating"
                 ><i class="fa fa-star"></i> <i class="fa fa-star"></i>
@@ -94,20 +112,20 @@
 
 <script>
 export default {
-  name: 'Testimonial',
-  mounted () {
-    $(document).on('click', '#custom_owl_carousel_dots > li', function () {
-      $('#custom_owl_carousel_dots > li.active').removeClass('active')
-      $(this).addClass('active')
-    })
+  name: "Testimonial",
+  mounted() {
+    $(document).on("click", "#custom_owl_carousel_dots > li", function () {
+      $("#custom_owl_carousel_dots > li.active").removeClass("active");
+      $(this).addClass("active");
+    });
 
     let Owl = {
       init: function () {
-        Owl.carousel()
+        Owl.carousel();
       },
       carousel: function () {
-        let owl
-        owl = $('.testimonial_slider').owlCarousel({
+        let owl;
+        owl = $(".testimonial_slider").owlCarousel({
           items: 1,
           dots: true,
           center: true,
@@ -116,52 +134,52 @@ export default {
           nav: false,
           loop: true,
           margin: 10,
-          animateOut: 'slideOutDown',
-          animateIn: 'slideInDown'
-        })
+          animateOut: "slideOutDown",
+          animateIn: "slideInDown",
+        });
 
-        $('#custom_owl_carousel_dots').on('click', 'li', function (e) {
-          owl.trigger('to.owl.carousel', [$(this).index(), 300])
-        })
-      }
-    }
-    Owl.init()
+        $("#custom_owl_carousel_dots").on("click", "li", function (e) {
+          owl.trigger("to.owl.carousel", [$(this).index(), 300]);
+        });
+      },
+    };
+    Owl.init();
 
-    let testimonial_slider = $('.testimonial_slider')
-    testimonial_slider.on('changed.owl.carousel', function (e) {
+    let testimonial_slider = $(".testimonial_slider");
+    testimonial_slider.on("changed.owl.carousel", function (e) {
       if (e.relatedTarget.current() === 2) {
-        $('#custom_owl_carousel_dots > li.testimonial1').addClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial1").addClass("active");
       } else {
-        $('#custom_owl_carousel_dots > li.testimonial1').removeClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial1").removeClass("active");
       }
       if (e.relatedTarget.current() === 3) {
-        $('#custom_owl_carousel_dots > li.testimonial2').addClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial2").addClass("active");
       } else {
-        $('#custom_owl_carousel_dots > li.testimonial2').removeClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial2").removeClass("active");
       }
       if (e.relatedTarget.current() === 4) {
-        $('#custom_owl_carousel_dots > li.testimonial3').addClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial3").addClass("active");
       } else {
-        $('#custom_owl_carousel_dots > li.testimonial3').removeClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial3").removeClass("active");
       }
       if (e.relatedTarget.current() === 5) {
-        $('#custom_owl_carousel_dots > li.testimonial4').addClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial4").addClass("active");
       } else {
-        $('#custom_owl_carousel_dots > li.testimonial4').removeClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial4").removeClass("active");
       }
       if (e.relatedTarget.current() === 6) {
-        $('#custom_owl_carousel_dots > li.testimonial5').addClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial5").addClass("active");
       } else {
-        $('#custom_owl_carousel_dots > li.testimonial5').removeClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial5").removeClass("active");
       }
       if (e.relatedTarget.current() === 7) {
-        $('#custom_owl_carousel_dots > li.testimonial6').addClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial6").addClass("active");
       } else {
-        $('#custom_owl_carousel_dots > li.testimonial6').removeClass('active')
+        $("#custom_owl_carousel_dots > li.testimonial6").removeClass("active");
       }
-    })
-  }
-}
+    });
+  },
+};
 </script>
 
 <style scoped></style>

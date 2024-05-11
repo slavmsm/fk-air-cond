@@ -16,7 +16,7 @@
             <div class="header_left_contact header_right_contact text-right">
               <p>
                 Looking for an engineer for your Aircond repair?
-                <a href="#">Click Here</a>
+                <a href="book-online">Click Here</a>
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@
               <div class="col-md-6 responsive_menu">
                 <div class="navbar-collapse">
                   <ul class="nav navbar-nav">
-                    <li><nuxt-link to="/">Home</nuxt-link></li>
+                    <li><nuxt-link to="">Home</nuxt-link></li>
                     <li><nuxt-link to="/about">About</nuxt-link></li>
                     <li>
                       <nuxt-link to="/services">Services</nuxt-link>

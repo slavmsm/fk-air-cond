@@ -2129,6 +2129,10 @@ span#videostore {
   color: white;
 }
 
+.why_choose_us_details:hover h3 {
+  color: white;
+}
+
 .why_choose_us_details p {
   margin-top: 50px;
   font-size: 18px;
@@ -3588,4 +3592,8 @@ span#videostore {
 
 .copyright_area .copyright_right .menu li:first-child {
   margin-left: 0;
+}
+
+.nuxt-link-active {
+  background-color: transparent !important;
 }

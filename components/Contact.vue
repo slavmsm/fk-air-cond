@@ -1,11 +1,5 @@
 <template>
   <div>
-    <!-- <div class="map_section">
-        <div id="map"></div>
-
-      </div> -->
-
-    <!--start contact section -->
     <section
       class="contact_form_area contact_form_other_style section_padding text-center"
     >
@@ -81,10 +75,12 @@
           <div class="col-lg-6 col-md-6">
             <div class="contact-details">
               <p class="text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non possimus
-                quibusdam earum nam veniam fugit? Voluptatibus odit nihil repudiandae,
-                sint vel earum unde quia obcaecati. Dolorum nihil adipisci commodi
-                facilis!
+                "FK Aircond offers comprehensive HVAC solutions tailored to your needs.
+                Our expert team provides top-notch services including air conditioner
+                repair, installation, maintenance, replacement, and specialized chemical
+                services. Whether you need a quick fix, a new unit installed, or routine
+                maintenance, trust FK Aircond to keep your indoor climate comfortable
+                year-round."
               </p>
             </div>
             <!--end .contact-details-->
@@ -102,11 +98,6 @@
 <script>
 export default {
   name: "Contact",
-  mounted() {
-    if ($("#map").length) {
-      initMap("map", 40.712776, -74.005974, "/assets/images/map-marker.png");
-    }
-  },
 };
 </script>
 
