@@ -181,7 +181,7 @@ body {
 }
 
 .section_padding {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 
 .hero-section-title {
@@ -217,7 +217,7 @@ body {
 }
 
 .gray_bg {
-  background-color: #eef3f9;
+  background-image: url(../images/header-bg-img.png) center center fixed no-repeat;
 }
 
 .mb_30 {
@@ -1335,7 +1335,7 @@ iframe {
   padding: 110px 0 110px 0;
   background-image: linear-gradient(to top, #225685, transparent 100%);
   border-bottom: 10px #225685;
-  opacity: 0.7;
+  opacity: 10;
 }
 
 .breadcrumb_area,
@@ -2130,6 +2130,7 @@ span#videostore {
 }
 
 .why_choose_us_details p {
+  margin-top: 50px;
   font-size: 18px;
   color: #0f1214;
   font-weight: 500;
@@ -3288,7 +3289,7 @@ span#videostore {
 
 .contact_form_area {
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   z-index: 9999;
 }
 

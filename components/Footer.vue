@@ -45,15 +45,18 @@
           <div class="footer_box">
             <h3>Contact Us</h3>
             <span
-              ><i class="fa fa-map-pin"></i>
-              <a href="#">Shop 001, Street 001, Malaysia.</a>
+              ><i class="fa fa-location-arrow"></i>
+              <a href="#"
+                >Sunway PGS9 Bandar Sunway<br />Subang Jaya Selangor, Malaysia.</a
+              >
             </span>
             <span class="support_email"
               ><i class="fa fa-envelope"></i>
               <a href="mailto:info@fkAircondservices.com">info@fkAircondservices.com</a>
             </span>
             <span class="support_num"
-              ><i class="fa fa-phone-square"></i> <a href="">+60-11-6441-8255</a></span
+              ><i class="fa fa-phone-square"></i>
+              <a href="tel:+601164418255">+60-11-6441-8255</a></span
             >
           </div>
           <!--end .footer_box-->
@@ -79,6 +82,11 @@
                 <li>
                   <a href="https://www.instagram.com/fkaircondservices/" target="_blank"
                     ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@FKAircondServices" target="_blank"
+                    ><i class="fa fa-youtube-play"></i
                   ></a>
                 </li>
               </ul>

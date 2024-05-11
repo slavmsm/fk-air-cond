@@ -8,7 +8,7 @@
               <ul>
                 <li><i class="fa fa-phone"></i> +60-11-6441-8255</li>
                 <li><i class="fa fa-envelope"></i> info@fkAircondservices.com</li>
-                <li><i class="fa fa-clock-o"></i> Mon-fri: 9am - 6pm</li>
+                <li><i class="fa fa-clock-o"></i> Mon - Sat: 9am - 6pm</li>
               </ul>
             </div>
           </div>
@@ -68,32 +68,8 @@
                             >Aircond Replacement</nuxt-link
                           >
                         </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <nuxt-link to="/services">Chemical Service</nuxt-link>
-                      <span class="responsive_click_menu fa fa-angle-down"></span>
-                      <ul class="dropdown-menu">
                         <li>
-                          <nuxt-link to="#">Overhaul Cleaning</nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="#">Chemical Cleaning </nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="#">Repair All Aircond Brands </nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
-                        </li>
-                        <li>
-                          <nuxt-link to="#">Aircond Chemical Services</nuxt-link>
+                          <nuxt-link to="chemical-services">Chemical Services</nuxt-link>
                         </li>
                       </ul>
                     </li>
@@ -120,6 +96,11 @@
                         href="https://www.instagram.com/fkaircondservices/"
                         target="_blank"
                         ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/@FKAircondServices" target="_blank"
+                        ><i class="fa fa-youtube-play"></i
                       ></a>
                     </li>
                     <li class="hv2_contact_us">

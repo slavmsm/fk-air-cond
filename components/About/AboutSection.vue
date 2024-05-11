@@ -121,13 +121,14 @@ export default {
 }
 
 .grid-row > div {
-  width: calc(50% - 10px); /* Adjust as needed */
+  width: calc(50% - 10px);
 }
 
 .img-grid > div > div > img {
   width: 200px;
   height: auto;
 }
+
 .img-grid > div > div > p {
   font-size: large;
   font-weight: bold;
@@ -135,10 +136,43 @@ export default {
 }
 
 .repair-image img {
+  position: relative;
   margin-bottom: 50px;
-  height: 100vh;
+  width: 500px;
   border-top: 6px solid #225685;
   border-right: 6px solid #225685;
   border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .img-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .grid-row > div {
+    width: calc(100% - 5px);
+  }
+
+  .img-grid > div > div > img {
+    width: 50%;
+  }
+
+  .repair-image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-grid > div > div > p {
+    font-size: medium;
+  }
+
+  .repair-image img {
+    width: 100%;
+    border-top: 4px solid #225685;
+    border-right: 4px solid #225685;
+  }
 }
 </style>

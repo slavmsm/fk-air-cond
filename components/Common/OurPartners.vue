@@ -78,6 +78,18 @@ export default {
           width: 250,
           alt: "Our Partners",
         },
+        {
+          src: "assets/images/our-partners/acson.png",
+
+          width: 250,
+          alt: "Our Partners",
+        },
+        {
+          src: "assets/images/our-partners/hisense.png",
+
+          width: 250,
+          alt: "Our Partners",
+        },
 
         {
           src: "assets/images/our-partners/daikin.png",
@@ -135,6 +147,18 @@ export default {
         },
         {
           src: "assets/images/our-partners/toshiba.png",
+
+          width: 250,
+          alt: "Our Partners",
+        },
+        {
+          src: "assets/images/our-partners/acson.png",
+
+          width: 250,
+          alt: "Our Partners",
+        },
+        {
+          src: "assets/images/our-partners/hisense.png",
 
           width: 250,
           alt: "Our Partners",

@@ -22,7 +22,6 @@ $ yarn build
 # generate static project
 $ npm run generate
 $ yarn run generate
-$
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

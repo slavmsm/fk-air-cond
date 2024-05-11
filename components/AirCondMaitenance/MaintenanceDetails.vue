@@ -70,10 +70,10 @@
             <h1 class="text-center">Aircond Maintenance Solutions</h1>
             <p class="mb_30 text-justify">
               Our Aircond maintenance services in Malaysia are tailored to ensure the
-              correct installation and optimal configuration of your Aircond
-              system. We utilize high-quality materials and state-of-the-art technology to
-              ensure the smooth and efficient operation of your Aircond system. Through
-              our maintenance offerings, we can help prolong the lifespan of your Aircond
+              correct installation and optimal configuration of your Aircond system. We
+              utilize high-quality materials and state-of-the-art technology to ensure the
+              smooth and efficient operation of your Aircond system. Through our
+              maintenance offerings, we can help prolong the lifespan of your Aircond
               system by performing routine inspections, cleaning, and necessary repairs,
               ensuring it operates smoothly for years to come.
             </p>
