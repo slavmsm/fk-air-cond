@@ -83,6 +83,25 @@
                 year-round."
               </p>
             </div>
+            <div class="contact-social">
+              <ul class="social_media">
+                <li>
+                  <a href="https://www.facebook.com/fkaircondservices/" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/fkaircondservices/" target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@FKAircondServices" target="_blank"
+                    ><i class="fa fa-youtube-play"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
             <!--end .contact-details-->
           </div>
           <!--end .col-md-8-->
@@ -101,4 +120,47 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.contact-social .social_media li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.contact-social .social_media li a {
+  display: block;
+  background: #225685;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 16px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 5px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-social .social_media li a:hover {
+  background: #a73434;
+  color: #ffffff;
+}
+
+.contact-social .social_media {
+  margin-right: 7px;
+}
+
+.contact-social .social_media li a:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+}
+</style>
