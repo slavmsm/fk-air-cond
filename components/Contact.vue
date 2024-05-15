@@ -48,13 +48,13 @@
                 <input
                   type="text"
                   name="name"
-                  class="input_mr input_half_width gray_bg"
+                  class="input_mr gray_bg"
                   placeholder="Full name"
                 />
                 <input
                   type="EMAIL"
                   name="email"
-                  class="input_half_width gray_bg"
+                  class="gray_bg"
                   placeholder="Your email"
                 />
                 <textarea

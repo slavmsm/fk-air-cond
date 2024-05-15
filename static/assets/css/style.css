@@ -1338,11 +1338,9 @@ iframe {
   color: #225685;
 }
 
-
 .breadcrumb_area {
   padding: 110px 0 110px 0;
-  background:
-    linear-gradient(to top, #225685, transparent 100%),
+  background: linear-gradient(to top, #225685, transparent 100%),
     url(../images/header-bg-img.png);
   background-size: cover;
   background-position: center;
@@ -3230,6 +3228,7 @@ span#videostore {
   font-size: 14px;
   font-weight: 500;
   height: 65px;
+  margin-bottom: 20px;
 }
 
 .contact-details .contact_select {
