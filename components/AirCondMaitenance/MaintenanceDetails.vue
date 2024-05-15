@@ -1,12 +1,10 @@
 <template>
   <section class="section_padding">
+    <h1 class="text-center">Comprehensive Aircond Maintenance Services in Malaysia</h1>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div>
-            <h1 class="text-center">
-              Comprehensive Aircond Maintenance Services in Malaysia
-            </h1>
             <p class="mb_30 text-justify">
               At Aircond -Maintain It, we provide a comprehensive range of air
               conditioning maintenance services in Malaysia, encompassing tasks from
@@ -16,26 +14,36 @@
             </p>
           </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-6">
+          <div class="repair-image">
+            <img
+              src="assets/images/aircond-maintain/ac-maintaining-and-repairing-2-1.png"
+              alt="Services Image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
           <div class="repair-image">
             <img
               src="assets/images/aircond-maintain/ac-maintain.png"
               alt="Services Image"
             />
-            <img
-              src="assets/images/aircond-maintain/ac-maintaining-and-repairing-2-1.png"
-              alt="Services Image"
-            />
-            <p class="mb_30 text-justify">
-              When it comes to our Aircond maintenance process, it all starts with a
-              thorough examination of the unit to pinpoint potential issues. Our
-              technicians meticulously inspect the condenser and evaporator coils, examine
-              fan blades, and conduct a comprehensive check of electrical connections.
-              Additionally, they closely scrutinize the filters and thermostat to verify
-              their proper functioning.
-            </p>
           </div>
         </div>
+        <div class="col-md-6">
+          <p class="mb_30 text-justify">
+            When it comes to our Aircond maintenance process, it all starts with a
+            thorough examination of the unit to pinpoint potential issues. Our technicians
+            meticulously inspect the condenser and evaporator coils, examine fan blades,
+            and conduct a comprehensive check of electrical connections. Additionally,
+            they closely scrutinize the filters and thermostat to verify their proper
+            functioning.
+          </p>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
           <div>
             <h1 class="text-center">Aircond Maintenance for Peak Performance</h1>
@@ -57,6 +65,8 @@
             />
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
           <div class="repair-image">
             <img

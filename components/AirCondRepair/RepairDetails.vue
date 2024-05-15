@@ -1,10 +1,10 @@
 <template>
   <section class="section_padding">
     <div class="container">
+      <h1 class="text-center">Expert AC Repair Services in Malaysia</h1>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div>
-            <h1 class="text-center">Expert AC Repair Services in Malaysia</h1>
             <p class="mb_30 text-justify">
               At Aircond Repair Malaysia, we offer a complete array of Aircond repair
               solutions, encompassing installation, upkeep, servicing, and replacement.
@@ -13,24 +13,34 @@
             </p>
           </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div class="repair-image">
             <img src="assets/images/aircond-repair/installing-ac.jpg" alt="blog image" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="repair-image">
             <img
               src="assets/images/aircond-repair/professional-technician.jpg"
               alt="blog image"
             />
-            <p class="mb_30 text-justify">
-              "Our Aircond repair process begins with a comprehensive unit inspection
-              aimed at uncovering potential issues. Our technicians meticulously examine
-              the condenser and evaporator coils, inspect fan blades, and scrutinize
-              electrical connections. They also evaluate filters and thermostats to ensure
-              proper functionality. During this inspection, our technicians document the
-              Aircond's condition, making note of any signs of wear or damage to
-              facilitate thorough repair and maintenance."
-            </p>
           </div>
         </div>
+        <div class="col-md-6">
+          <p class="mb_30 text-justify">
+            "Our Aircond repair process begins with a comprehensive unit inspection aimed
+            at uncovering potential issues. Our technicians meticulously examine the
+            condenser and evaporator coils, inspect fan blades, and scrutinize electrical
+            connections. They also evaluate filters and thermostats to ensure proper
+            functionality. During this inspection, our technicians document the Aircond's
+            condition, making note of any signs of wear or damage to facilitate thorough
+            repair and maintenance."
+          </p>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
           <div>
             <h1 class="text-center">Aircond Repair Experts You Can Trust.</h1>
@@ -49,6 +59,8 @@
             <img src="assets/images/aircond-repair/ac-fixing.jpg" alt="blog image" />
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
           <div class="repair-image">
             <img src="assets/images/aircond-repair/ac-repairman.jpg" alt="blog image" />
