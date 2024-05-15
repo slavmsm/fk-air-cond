@@ -1,7 +1,6 @@
 <template>
   <section class="text-center section_padding gray_bg">
     <div class="breadcrumb_area">
-      <div class="breadcrumb_image"></div>
       <div class="container">
         <ul class="breadcrumb">
           <li><nuxt-link to="/">Home</nuxt-link></li>
