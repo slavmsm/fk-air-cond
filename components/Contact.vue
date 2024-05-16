@@ -87,9 +87,9 @@
                 "FK Aircond offers comprehensive HVAC solutions tailored to your needs.
                 Our expert team provides top-notch services including air conditioner
                 repair, installation, maintenance, replacement, and specialized chemical
-                services. Whether you need a quick fix, a new unit installed, or routine
-                maintenance, trust FK Aircond to keep your indoor climate comfortable
-                year-round."
+                services. <br />Whether you need a quick fix, a new unit installed, or
+                routine maintenance, trust FK Aircond to keep your indoor climate
+                comfortable year-round."
               </p>
             </div>
             <div class="contact-social">
