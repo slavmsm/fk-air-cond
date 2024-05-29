@@ -73,6 +73,7 @@
                         </li>
                       </ul>
                     </li>
+                    <li><nuxt-link to="/blog">Blogs</nuxt-link></li>
                     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                   </ul>
                   <!-- end .nav .navbar-nav -->
