@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export default {
   mode: "universal",
   /*
@@ -100,11 +102,16 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+
+  modules: ["@nuxtjs/axios"],
+  axios: {
+    axios: {
+      baseURL: process.env.API_URL || "http://127.0.0.1:1337/api", // Default to 127.0.0.1 if API_URL is not set
+    },
+  },
   /*
    ** Build configuration
-   */
-  build: {
+   */ build: {
     /*
      ** You can extend webpack config here
      */
