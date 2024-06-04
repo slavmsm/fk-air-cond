@@ -82,6 +82,12 @@ export default {
   /*
    ** Global CSS
    */
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   css: [],
   /*
    ** Plugins to load before mounting the App
