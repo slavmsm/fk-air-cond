@@ -54,26 +54,20 @@
                           <nuxt-link to="/aircond-repair">Aircond Repair</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/aircond-maintenance"
-                            >Aircond Maintenance</nuxt-link
-                          >
+                          <nuxt-link to="/aircond-maintenance">Aircond Maintenance</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="/aircond-installation"
-                            >Aircond Installation</nuxt-link
-                          >
+                          <nuxt-link to="/aircond-installation">Aircond Installation</nuxt-link>
                         </li>
                         <li>
-                          <nuxt-link to="aircond-replacement"
-                            >Aircond Replacement</nuxt-link
-                          >
+                          <nuxt-link to="aircond-replacement">Aircond Replacement</nuxt-link>
                         </li>
                         <li>
                           <nuxt-link to="chemical-services">Chemical Services</nuxt-link>
                         </li>
                       </ul>
                     </li>
-                    <li><nuxt-link to="/blog">Blogs</nuxt-link></li>
+                    <li><nuxt-link to="/blogs">Blogs</nuxt-link></li>
                     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                   </ul>
                   <!-- end .nav .navbar-nav -->
@@ -86,28 +80,19 @@
                 <div class="hv2_header-social-right text-right">
                   <ul>
                     <li>
-                      <a
-                        href="https://www.facebook.com/fkaircondservices/"
-                        target="_blank"
-                        ><i class="fa fa-facebook"></i
-                      ></a>
+                      <a href="https://www.facebook.com/fkaircondservices/" target="_blank"><i
+                          class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.instagram.com/fkaircondservices/"
-                        target="_blank"
-                        ><i class="fa fa-instagram"></i
-                      ></a>
+                      <a href="https://www.instagram.com/fkaircondservices/" target="_blank"><i
+                          class="fa fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="https://www.youtube.com/@FKAircondServices" target="_blank"
-                        ><i class="fa fa-youtube-play"></i
-                      ></a>
+                      <a href="https://www.youtube.com/@FKAircondServices" target="_blank"><i
+                          class="fa fa-youtube-play"></i></a>
                     </li>
                     <li class="hv2_contact_us">
-                      <nuxt-link class="btn-orange" to="/book-online"
-                        >Book Online</nuxt-link
-                      >
+                      <nuxt-link class="btn-orange" to="/book-online">Book Online</nuxt-link>
                     </li>
                   </ul>
                 </div>

@@ -1,17 +1,27 @@
 <template>
-  <div v-if="post">
-    <h1>{{ post.title }}</h1>
-    <img :src="post.coverImage.url" :alt="post.coverImage.alt" />
-    <div v-html="post.description"></div>
-    <div v-html="renderBody(post.body?.value.document)"></div>
-    <p>Category: {{ post.category.name }}</p>
-    <p>Date: {{ post.date }}</p>
+  <div>
+    <PageHeader title="Blogs" />
+    <div v-if="post">
+      <h1>{{ post.title }}</h1>
+      <img :src="post.coverImage.url" :alt="post.coverImage.alt" />
+      <div v-html="post.description"></div>
+      <div v-html="renderBody(post.body?.value.document)"></div>
+      <p>Category: {{ post.category.name }}</p>
+      <p>Date: {{ post.date }}</p>
+    </div>
+    <div v-else>Loading...</div>
   </div>
-  <div v-else>Loading...</div>
 </template>
 
 <script>
+
+import PageHeader from "~/components/PageHeader";
+
+
 export default {
+  components: {
+    PageHeader,
+  },
   async asyncData({ params, $axios }) {
     const query = `
       query Blog($slug: String!) {

@@ -17,52 +17,14 @@
 <script>
 export default {
   name: "BlogsGrid",
-  data() {
-    return {
-      posts: [], // Initialize posts array
-    };
+  props: {
+    posts: {
+      type: Array,
+      required: true,
+    },
   },
-  async asyncData({ $axios }) {
-    const query = `
-      query MyQuery {
-        allBlogs {
-          id
-          _publishedAt
-          body {
-            blocks
-            links
-            value
-          }
-          category {
-            name
-          }
-          date
-          coverImage {
-            alt
-            url
-          }
-          title
-          slug
-          description
-        }
-      }
-    `;
-
-    try {
-      const response = await $axios.post('', { query }, {
-        headers: {
-          Authorization: `Bearer ${process.env.DATO_API_TOKEN}`,
-        }
-      });
-      return {
-        posts: response.data.data.allBlogs,
-      };
-    } catch (error) {
-      console.error('Axios error:', error);
-      return {
-        posts: [],
-      };
-    }
+  mounted() {
+    console.log('Posts received:', this.posts);
   },
 };
 </script>
