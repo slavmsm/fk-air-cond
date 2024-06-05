@@ -1,35 +1,89 @@
-<!-- pages/blog/_slug.vue -->
 <template>
-  <div>
-    <h1>{{ article.attributes.title }}</h1>
-    <p>{{ article.attributes.description }}</p>
-    <p>{{ article.attributes.createdAt }}</p>
-    <p>{{ article.attributes.blocks }}</p>
-    <img :src="article.attributes.cover.data.attributes.formats.large.url">
+  <div v-if="post">
+    <h1>{{ post.title }}</h1>
+    <img :src="post.coverImage.url" :alt="post.coverImage.alt" />
+    <div v-html="post.description"></div>
+    <div v-html="renderBody(post.body?.value.document)"></div>
+    <p>Category: {{ post.category.name }}</p>
+    <p>Date: {{ post.date }}</p>
   </div>
+  <div v-else>Loading...</div>
 </template>
 
 <script>
 export default {
-  async asyncData({ $axios, params }) {
+  async asyncData({ params, $axios }) {
+    const query = `
+      query Blog($slug: String!) {
+        blog(filter: { slug: { eq: $slug } }) {
+          id
+          _publishedAt
+          body {
+            blocks
+            links
+            value
+          }
+          category {
+            name
+          }
+          date
+          coverImage {
+            alt
+            url
+          }
+          title
+          slug
+          description
+        }
+      }
+    `;
+    const variables = { slug: params.slug };
+
     try {
-      const response = await $axios.get(`/articles?filters[slug][$eq]=${params.slug}&populate=*`);
-      const article = response.data.data[0];
-      return { article };
+      const response = await $axios.post('', { query, variables }, {
+        headers: {
+          Authorization: `Bearer ${process.env.DATO_API_TOKEN}`,
+        }
+      });
+      console.log('Axios response:', response);
+      return {
+        post: response.data.data.blog,
+      };
     } catch (error) {
-      return { error: 'Article not found.' };
+      console.error('Axios error:', error);
+      return {
+        post: null,
+      };
     }
   },
-  data() {
-    return {
-      article: null,
-      error: null,
-    };
-  },
+  methods: {
+    renderBody(document) {
+      if (!document) return '';
+
+      let renderedText = '';
+
+      document.children.forEach(child => {
+        if (child.type === 'paragraph') {
+          renderedText += '<p>';
+          child.children.forEach(span => {
+            if (span.type === 'span' && span.value) {
+              if (span.marks && span.marks.includes('strong')) {
+                renderedText += `<strong>${span.value}</strong>`;
+              } else {
+                renderedText += span.value;
+              }
+            }
+          });
+          renderedText += '</p>';
+        }
+      });
+
+      return renderedText;
+    }
+  }
 };
 </script>
 
-
-<style scoped>
-/* Add your styles here */
+<style>
+/* Add any necessary styling here */
 </style>

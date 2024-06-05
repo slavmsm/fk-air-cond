@@ -2,9 +2,6 @@ require("dotenv").config();
 
 export default {
   mode: "universal",
-  /*
-   ** Headers of the page
-   */
   head: {
     title: process.env.npm_package_name || "",
     meta: [
@@ -22,7 +19,6 @@ export default {
         type: "image/png",
         href: "assets/logo/fk-Aircond-icon.png",
       },
-
       { rel: "stylesheet", href: "/assets/css/bootstrap.min.css" },
       { rel: "stylesheet", href: "/assets/css/font-awesome.min.css" },
       { rel: "stylesheet", href: "/assets/css/fontello.css" },
@@ -33,7 +29,6 @@ export default {
       { rel: "stylesheet", href: "/assets/css/style.css" },
       { rel: "stylesheet", href: "/assets/css/responsive.css" },
     ],
-
     script: [
       { src: "/assets/js/jquery.min.js", type: "text/javascript", body: true },
       {
@@ -74,47 +69,14 @@ export default {
       },
     ],
   },
-  /*
-   ** Customize the progress-bar color
-   */
-  loading: {
-    color: "#0eb3d6",
-    height: "4px",
-  },
-  /*
-   ** Global CSS
-   */
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+  loading: { color: "#0eb3d6", height: "4px" },
+  postcss: { plugins: { tailwindcss: {}, autoprefixer: {} } },
   css: [],
-  /*
-   ** Plugins to load before mounting the App
-   */
   plugins: [],
-  /*
-   ** Nuxt.js dev-modules
-   */
   buildModules: [],
-  /*
-   ** Nuxt.js modules
-   */
-
-  modules: ["@nuxtjs/axios"],
+  modules: ["@nuxtjs/axios", "@nuxtjs/dotenv"],
   axios: {
-    axios: {
-      baseURL: process.env.API_URL || "http://127.0.0.1:1337/api", // Default to 127.0.0.1 if API_URL is not set
-    },
+    baseURL: "https://graphql.datocms.com/", // Correct base URL for DatoCMS API
   },
-  /*
-   ** Build configuration
-   */ build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {},
-  },
+  build: { extend(config, ctx) {} },
 };
