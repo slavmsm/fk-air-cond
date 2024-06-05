@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-6" v-for="post in posts" :key="post.id">
-          <nuxt-link :to="`/blog/${post.slug}`">
+          <nuxt-link :to="`/blogs/${post.slug}`">
             <div class="latest_share_blog_box mb_40">
               <div class="latest_share_img_box">
                 <img :src="post.coverImage.url" :alt="post.coverImage.alt" />
