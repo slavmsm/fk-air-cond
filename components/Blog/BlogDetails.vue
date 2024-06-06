@@ -11,8 +11,8 @@
               </div><!--end .bl_share_img-->
               <div class="blog_share_details">
                 <h1>{{ post.title }}</h1>
-                <div class="description" v-html="post.description"></div>
-                <p class="blog-body" v-html="renderBody(post.body?.value.document)"></p>
+                <div v-html="post.description"></div>
+                <div v-html="renderBody(post.body?.value.document)"></div>
               </div><!--end blog-share-details-->
             </div><!--end blog-left-box-->
           </div><!--end blog-details-left-->
@@ -31,8 +31,7 @@
             </div><!--end .blog_right_box-->
             <div class="blog_social_share_box">
               <div class="share_box_left">
-                <p>Tags: <a href="#">Blogs,</a> <a href="#">{{ post.category.name }},</a> <a href="#">Aircond</a>
-                </p>
+                <p>Tags: <a href="#">fridge,</a> <a href="#">ice maker,</a> <a href="#">refrigerator</a></p>
               </div>
             </div><!--end .blog_social_share_box-->
           </div><!--end .blog_details_right-->
@@ -40,7 +39,7 @@
             <h2>All Blogs</h2>
             <ul>
               <li v-for="blog in blogs" :key="blog.id">
-                <nuxt-link :to="`/blogs/${blog.slug}`">
+                <nuxt-link :to="`/blogs${blog.slug}`">
                   <img :src="blog.coverImage.url" :alt="blog.coverImage.alt" class="blog-thumbnail" />
                   <span>{{ blog.title }}</span>
                 </nuxt-link>
@@ -99,6 +98,19 @@ export default {
             }
           });
           renderedText += '</p>';
+        } else if (child.type === 'heading') {
+          const level = child.attrs && child.attrs.level ? child.attrs.level : 1; // Default to h1 if no level is specified
+          renderedText += `<h${level}>`;
+          child.children.forEach(span => {
+            if (span.type === 'span' && span.value) {
+              if (span.marks && span.marks.includes('strong')) {
+                renderedText += `<strong>${span.value}</strong>`;
+              } else {
+                renderedText += span.value;
+              }
+            }
+          });
+          renderedText += `</h${level}>`;
         }
       });
 
@@ -155,12 +167,12 @@ export default {
 .blog_date {
   display: block;
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #e0e0e0;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 30px;
 }
 
@@ -171,13 +183,6 @@ h2 {
 
 p {
   font-size: 1.5rem;
-  text-align: justify;
-  color: #333;
-  margin-top: 30px;
-}
-
-.description {
-  font-size: 2rem;
   text-align: justify;
   color: #555;
 }
