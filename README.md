@@ -7,7 +7,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/wahabsharif/fk-air-cond/main/static/assets/images/website-mockup.png"  />
+  <img height="300" src="https://raw.githubusercontent.com/wahabsharif/fk-air-cond/main/static/assets/images/website-mockup.png"  />
 </div>
 
 ###
