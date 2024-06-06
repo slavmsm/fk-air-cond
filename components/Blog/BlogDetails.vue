@@ -39,7 +39,7 @@
             <h2>All Blogs</h2>
             <ul>
               <li v-for="blog in blogs" :key="blog.id">
-                <nuxt-link :to="`/blogs${blog.slug}`">
+                <nuxt-link :to="`/blogs/${blog.slug}`">
                   <img :src="blog.coverImage.url" :alt="blog.coverImage.alt" class="blog-thumbnail" />
                   <span>{{ blog.title }}</span>
                 </nuxt-link>
