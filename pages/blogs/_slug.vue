@@ -2,17 +2,20 @@
   <div>
     <PageHeader title="Blog Details" />
     <BlogDetails :post="post" />
+    <LeaveComment />
   </div>
 </template>
 
 <script>
 import PageHeader from "~/components/PageHeader";
 import BlogDetails from "~/components/Blog/BlogDetails.vue";
+import LeaveComment from "~/components/LeaveComment.vue";
 
 export default {
   components: {
     PageHeader,
     BlogDetails,
+    LeaveComment,
   },
   async asyncData({ params, $axios }) {
     const query = `
@@ -42,17 +45,21 @@ export default {
     const variables = { slug: params.slug };
 
     try {
-      const response = await $axios.post('', { query, variables }, {
-        headers: {
-          Authorization: `Bearer ${process.env.DATO_API_TOKEN}`,
+      const response = await $axios.post(
+        "",
+        { query, variables },
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.DATO_API_TOKEN}`,
+          },
         }
-      });
-      console.log('Axios response:', response);
+      );
+      console.log("Axios response:", response);
       return {
         post: response.data.data.blog,
       };
     } catch (error) {
-      console.error('Axios error:', error);
+      console.error("Axios error:", error);
       return {
         post: null,
       };
