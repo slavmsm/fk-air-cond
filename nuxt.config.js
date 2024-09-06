@@ -76,7 +76,7 @@ export default {
   buildModules: [],
   modules: ["@nuxtjs/axios", "@nuxtjs/dotenv"],
   // axios: {
-  //   baseURL: "https://graphql.datocms.com/", // Correct base URL for DatoCMS API
+  //   baseURL: "https://graphql.datocms.com/",
   // },
   build: { extend(config, ctx) {} },
 };
