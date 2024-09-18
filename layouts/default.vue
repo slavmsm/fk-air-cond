@@ -2,6 +2,7 @@
   <div>
     <Header />
     <nuxt />
+    <FloatingWhatsapp />
     <Footer />
   </div>
 </template>
@@ -9,10 +10,12 @@
 <script>
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
+import FloatingWhatsapp from "~/components/Common/FloatingWhatsapp";
 
 export default {
   components: {
     Header,
+    FloatingWhatsapp,
     Footer,
   },
   data() {
