@@ -2,15 +2,19 @@
   <footer class="footer_section section_padding">
     <div class="container">
       <div>
-        <img src="assets/logo/fk-aircond-logo.svg" alt="Footer Logo" width="100" />
+        <img
+          src="assets/logo/fk-aircond-logo.svg"
+          alt="Footer Logo"
+          width="100"
+        />
       </div>
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="footer_box">
             <p>
-              FK Aircond Services, based in Malaysia, offers maintenance, installation,
-              repair, and chemical services for all your air conditioning needs. Trusted
-              expertise.
+              FK Aircond Services, based in Malaysia, offers maintenance,
+              installation, repair, and chemical services for all your air
+              conditioning needs. Trusted expertise.
             </p>
           </div>
           <!--end .footer_box-->
@@ -47,12 +51,15 @@
             <span
               ><i class="fa fa-location-arrow"></i>
               <a href="#"
-                >Sunway PGS9 Bandar Sunway<br />Subang Jaya Selangor, Malaysia.</a
+                >Sunway PGS9 Bandar Sunway<br />Subang Jaya Selangor,
+                Malaysia.</a
               >
             </span>
             <span class="support_email"
               ><i class="fa fa-envelope"></i>
-              <a href="mailto:info@fkAircondservices.com">info@fkAircondservices.com</a>
+              <a href="mailto:info@fkAircondservices.com"
+                >info@fkAircondservices.com</a
+              >
             </span>
             <span class="support_num"
               ><i class="fa fa-phone-square"></i>
@@ -75,22 +82,30 @@
             <div class="copyright_left">
               <ul class="social_media">
                 <li>
-                  <a href="https://www.facebook.com/fkaircondservices/" target="_blank"
+                  <a
+                    href="https://www.facebook.com/fkaircondservices/"
+                    target="_blank"
                     ><i class="fa fa-facebook"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/fkaircondservices/" target="_blank"
+                  <a
+                    href="https://www.instagram.com/fkaircondservices/"
+                    target="_blank"
                     ><i class="fa fa-instagram"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@FKAircondServices" target="_blank"
+                  <a
+                    href="https://www.youtube.com/@FKAircondServices"
+                    target="_blank"
                     ><i class="fa fa-youtube-play"></i
                   ></a>
                 </li>
               </ul>
-              <p>&copy; copyright {{ getCurrentYear() }} - FK Aircond Services.</p>
+              <p>
+                &copy; copyright {{ getCurrentYear() }} - FK Aircond Services.
+              </p>
             </div>
             <!--end .copyright_left-->
           </div>
@@ -99,14 +114,9 @@
             <div class="copyright_right">
               <ul class="menu">
                 <li>
-                  <a href="http://beacontechh.com/" target="_blank"
-                    >Design and Developed with Passion by
-                    <img
-                      src="/assets/images/bt-icon.png"
-                      alt="Developer Logo"
-                      width="30"
-                      height="30"
-                    />
+                  <p>Design and Developed with Passion by</p>
+                  <a href="https://visionnexigen.com/" target="_blank"
+                    >Vision Nexigen
                   </a>
                 </li>
               </ul>
