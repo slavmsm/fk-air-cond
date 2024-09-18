@@ -10,7 +10,8 @@
 <script>
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
-import FloatingWhatsapp from "~/components/Common/FloatingWhatsapp";
+// import FloatingWhatsapp from "~/components/Common/FloatingWhatsapp";
+import FloatingWhatsapp from "~/components/Common/FloatingWhatsApp.vue";
 
 export default {
   components: {
